@@ -33,8 +33,9 @@
 | KI-Werkbank | [Datei](../assets/ai-workbench-dark.svg) | [Datei](../assets/ai-workbench-light.svg) | Sachliche Einordnung benannter KI-Werkzeuge als Text |
 | Stack-Atlas | [Datei](../assets/stack-atlas-dark.svg) | [Datei](../assets/stack-atlas-light.svg) | Eigens gestaltete, neutrale Technologie-Karten |
 | Code-Rhythmus | [Datei](../assets/build-loop-dark.svg) | [Datei](../assets/build-loop-light.svg) | Arbeitsprinzip Verstehen → Verbessern |
+| Showcase-Projektkarte | [Dark SVG](https://github.com/rootkid-code/showcase-studio-releases/blob/main/assets/brand/showcase-portfolio-dark.svg) | [Light SVG](https://github.com/rootkid-code/showcase-studio-releases/blob/main/assets/brand/showcase-portfolio-light.svg) | **1440 × 600**: Gold-/Graphit-Banner für gleichmäßige Projektkarten neben Tresor; externes Originalasset im öffentlichen Release-Repo |
 
-**Keine dieser Grafiken ist ein Screenshot oder eine tatsächlich live messende Software-Oberfläche.** Titel-/Alt-Texte und das Quellenkonzept sollen diesen Unterschied erkennbar machen.
+**Keine dieser Grafiken ist ein Screenshot oder eine tatsächlich live messende Software-Oberfläche.** Showcase und Tresor verwenden in der Profil-README jetzt bewusst **identische 1440 × 600 Seitenverhältnisse**; das Showcase-S-Logo bleibt seine kanonische Markendatei und wird nicht durch das größere Banner ersetzt. Titel-/Alt-Texte und das Quellenkonzept sollen diesen Unterschied erkennbar machen.
 
 ## Marken Dritter
 
