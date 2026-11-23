@@ -1,52 +1,63 @@
-# GitHub profile settings — rootkid-code
+# GitHub-Profil · Bio, Status, Privatsphäre
 
-> This document is **not a live GitHub account setting**. The connected GitHub application can edit files, but cannot set account profile metadata or native status. These short steps must be applied in GitHub's own UI.
+Die Profil-README ist **öffentlich aktiv**. Der native GitHub-Profilname, die **Bio**, der **Status** und angeheftete Repositories lassen sich jedoch nicht über die hier verfügbare GitHub-Verbindung bearbeiten. Diese Einstellungen können direkt in GitHub gesetzt werden.
 
-## Suggested Bio (copy as-is)
+## Bio · Empfohlener deutscher Text
 
 ```text
-Building practical AI & automation tools, thoughtful interfaces, and reliable workflows. n8n · TypeScript · Python · React
+Ich baue KI-Workflows, Automationen & digitale Produkte – mit Sinn für klare UX, gute Prozesse und Technik, die wirklich hilft. ⚡
 ```
 
-## Suggested public display name
+GitHub erlaubt in der Bio bis zu **160 Zeichen**. Die vorgeschlagene Fassung bleibt darunter.
 
-`rootkid / code`
+**Anzeigename:** `rootkid / code` · Unternehmensfeld: vorerst leer · Standort: optional nicht öffentlich · Website: erst eintragen, wenn eine freigegebene Seite erreichbar ist.
 
-Use the pseudonym; no legal name is necessary in the profile header. Keep **Company** and **Location** empty unless you specifically want them public. Set a **Website** only when an actual publicly accessible portfolio is approved.
+## Nativer GitHub-Status (What's happening)
 
-## Suggested playful GitHub status
+**Empfohlen:**
 
-**Emoji:** ⚡
+- Emoji: `⚡`
+- Text: `Vibe Coding: AN · Reality Check: PFLICHT 🧪`
+- Verfügbarkeit: **nicht Busy**, solange du nicht bewusst eingeschränkte Verfügbarkeit signalisieren möchtest
+- Ablauf: **Nicht automatisch löschen** / ohne Ablauf, sofern du den Spruch dauerhaft zeigen möchtest
+- Sichtbar für: **Everyone**, wenn er für alle Profilbesucher erscheinen soll
 
-**Status text:** `Vibe coding with a seatbelt 🧪`
+**Weitere Varianten:**
 
-Alternative: `Vibes: ON · blind trust: OFF`
+| Situation | Emoji | Text |
+|:--|:--|:--|
+| Standard · humorvoll | ⚡ | `Vibe Coding: AN · Reality Check: PFLICHT 🧪` |
+| Fokusphase | 🎧 | `Im Flow. Bugs dürfen sich hinten anstellen.` |
+| Deep Work | 🧠 | `Ideen werden zu Code. Bitte nicht erschrecken.` |
+| Pausenmodus | ☕ | `Kompiliere Gedanken. Kaffee ist eine Dependency.` |
+| Kurze Auszeit | 🌴 | `Offline-Modus: Menschen statt Maschinen.` |
 
-To set it: open GitHub → click your avatar → choose **Set status** (where available) → enter the text/emoji → choose the expiry. GitHub availability and wording can vary. This **native status was not set by this repository change**.
+Die GitHub-Vorschläge **Focusing, Working from home, Vacation, Sick, Busy** sind Vorlagen beziehungsweise Verfügbarkeitsoptionen; der eigentliche Statustext ist frei formulierbar. **Busy** signalisiert begrenzte Verfügbarkeit und ist keine dekorative Stufe in einer Fortschrittsanzeige.
 
-The profile README already carries a matching **permanent editorial status**: `VIBE CODING: ON / BLIND TRUST: OFF / REALITY CHECK: REQUIRED`.
+**So einstellen:** Profilbild rechts oben → **Set status** → unter **What's happening** Text eintragen → Smiley wählen → ggf. **Busy**, **Expiration** und **Visible to** festlegen → speichern.
 
-## Pin suggestions
+Der grafische „Mission-Control“-Balken in der README ist davon unabhängig und **statisch**. Er aktualisiert sich nicht automatisch anhand deiner GitHub-Verfügbarkeit oder Aktivität.
 
-From your profile, choose **Customize your pins** and select:
+## Profilpins
 
-- `showcase-studio-releases` — documentation only; no public installer yet
-- `tresor-releases` — experimental beta; synthetic disposable data only
+Unter **Your profile → Customize your pins**:
 
-Add other pins **only after** their repositories or public case studies are actually released and reviewed.
+- `showcase-studio-releases` – öffentliche Produktdokumentation, noch kein Installer
+- `tresor-releases` – experimentelle Testversionen, keine Echtdaten
 
-## Email privacy — important
+Weitere Projekte erst nach gesonderter Freigabe und Bereinigung öffentlich verknüpfen.
 
-Previous commits in existing public repositories were authored using a **personal email address**. The public README can be pseudonymous while those commit objects still expose the original metadata.
+## E-Mail-Privatsphäre
 
-For future work:
+Frühere **öffentliche Git-Commits** enthalten eine persönliche Autoren-E-Mail in ihren Metadaten. Die neue pseudonyme README ändert die bestehende Git-Historie nicht.
 
-1. GitHub → **Settings → Emails**: enable **Keep my email addresses private** (if available).
-2. Choose GitHub's **noreply** commit address from your account settings; GitHub provides the exact account-specific value.
-3. For local Git: configure `git config --global user.name "rootkid-code"` and `git config --global user.email "<your GitHub noreply address>"` using the verified address, not a guessed one.
-4. Test the author and committer identity on a disposable commit before creating more public history.
-5. GitHub-connected write tools may have their own attribution behavior. Check the actual new commit metadata after committing.
+Für neue Commits:
 
-**Turning on email privacy does not retroactively erase old commit objects.** Removing historical personal metadata requires a carefully planned history-rewrite and assessment of GitHub forks, caches, open PRs and commit SHA references. Never force-push active repos merely to hide metadata.
+1. GitHub → **Settings → Emails** → **Keep my email addresses private** aktivieren, sofern verfügbar.
+2. Dort die tatsächlich angezeigte, kontospezifische GitHub-`noreply`-Adresse verwenden; keine Adresse raten.
+3. Lokal `git config --global user.name "rootkid-code"` und `git config --global user.email "<deine echte GitHub-noreply-Adresse>"` konfigurieren.
+4. Bei Verbindungen und Bots die tatsächlich geschriebenen Git-Autorenmetadaten anschließend prüfen.
 
-[← Profile](../README.md)
+**Wichtig:** Alte Commit-Metadaten sind durch diese Einstellungen nicht rückwirkend bereinigt. Eine Historienbereinigung müsste getrennt geplant und ihre Nebenwirkungen geprüft werden.
+
+[← Profil](../README.md)

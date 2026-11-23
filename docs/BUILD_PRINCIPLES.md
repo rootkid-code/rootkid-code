@@ -1,33 +1,39 @@
-# How I approach building
+# Der Code-Rhythmus · Wie ich an Software herangehe
 
-This is an editorial explanation of how I want to work, **not a claim that every project already meets every rule**.
+Diese Prinzipien beschreiben meine **Arbeitsweise und Ziele**, nicht eine vollständige Qualitätszertifizierung aller bisherigen Projekte.
 
-## A useful problem beats a fashionable stack
+## 01 · Verstehen
 
-I start by asking: Who needs this? What changes for them? What would a successful workflow actually look like? If forms and deterministic rules solve the problem better than a model, there's no reason to add AI.
+Welche Aufgabe soll gelöst werden? Wer hat den Aufwand heute? Was wäre ein Ergebnis, das die Arbeit tatsächlich erleichtert?
 
-## Interfaces are part of the engineering
+Ich versuche, den Prozess zu verstehen, **bevor** ich weitere Tools oder KI hinzufüge.
 
-A product can have great internals and still be confusing. I aim for a clear primary action, useful error messages, readable contrast, predictable navigation, sensible defaults and a path for users who aren't developers.
+## 02 · Planen
 
-## AI can draft. It shouldn't quietly decide.
+Welche Daten werden verarbeitet? Wo braucht es klare Zustände, Zugriffsrechte, Rückfragen, menschliche Freigaben oder eine Rückfallebene?
 
-AI-generated code and content still need review. High-impact actions should have deterministic checks, human approval when appropriate, logging without unnecessary personal data and clear failure handling.
+Lieber ein verständliches Systemmodell als zehn unverbundene Features.
 
-## A release needs evidence
+## 03 · Bauen
 
-A pretty README doesn't prove the executable runs. I distinguish development notes, source tests, real browser observations, OS-native installation results and publicly available release files.
+Schnell einen echten, nachvollziehbaren Prototyp umsetzen. Bei KI: strukturierte Ausgaben prüfen, Grenzen zwischen generiertem Text und deterministischer Logik beachten.
 
-## Privacy before publicity
+Ein Prototyp darf experimentell sein. Er sollte aber trotzdem klar sagen, was er leisten kann.
 
-A screenshot can leak more than a source file. Workflow names, URLs, browser tabs, access tokens, company systems, personal information and internal metadata must be reviewed before sharing.
+## 04 · Prüfen
 
-## Iterate with traceable changes
+Unit-Tests und Builds sind hilfreich, beantworten aber nicht alle Fragen. Wichtig sind auch Fehlerfälle, lesbare UI, Zugänglichkeit, Datenschutz und – bei Desktop-Apps – eine echte Installation auf dem Zielsystem.
 
-Small scopes, clear ownership, version control, documentation, relevant tests and reversible changes make experimentation sustainable.
+**Ein grüner Test ersetzt keinen nachgewiesenen Release.**
 
----
+## 05 · Verbessern
 
-**My rule of thumb:** *Vibe-code the sketch. Engineer the edge cases. Verify the release.*
+Feedback sammeln, überflüssige Komplexität reduzieren, Fehler nachvollziehbar beheben und funktionierende Arbeit in kleine, dokumentierte Schritte aufteilen.
 
-[Project map](PROJECTS.md) · [← Profile](../README.md)
+Ziel ist nicht immer mehr Funktionalität. Oft ist die nächste Verbesserung: **weniger Überraschungen für Nutzerinnen und Nutzer**.
+
+## Meine Regel
+
+> **Mit Vibes starten. Die kritischen Stellen wie ein Ingenieur behandeln. Mit Belegen veröffentlichen.**
+
+[← Profil](../README.md) · [Projektkarte](PROJECTS.md)

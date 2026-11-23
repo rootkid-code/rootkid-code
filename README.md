@@ -1,163 +1,206 @@
 <div align="center">
 
+**Deutsch** · [English](docs/README.en.md)
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/profile-hero-dark.svg" />
-  <img src="assets/profile-hero-light.svg" alt="rootkid/code — AI, automation, product engineering. Custom illustrated engineering console; not an app screenshot." width="100%" />
+  <img src="assets/profile-hero-light.svg" width="100%" alt="rootkid/code – individueller Header mit abstrahierter Entwicklerkonsole, kein Screenshot einer Anwendung." />
 </picture>
 
-### Hey, I'm rootkid-code. 👋
+### Hey, ich bin rootkid-code. 👋
 
-**I turn messy ideas into understandable software.**
+# Ideen bauen. Systeme verstehen. Dinge besser machen.
 
-AI-powered workflows, product interfaces and practical systems — with curiosity at the start and verification before the finish.
+**KI · Automatisierung · Product Engineering · UI/UX · Creative Web**
 
-<code>⚡ VIBE CODING: ON</code> &nbsp; <code>🧪 REALITY CHECK: REQUIRED</code> &nbsp; <code>🛑 BLIND TRUST: OFF</code>
+Aus einem Gedanken wird ein Prototyp. Aus einem Prototyp wird – mit etwas Hartnäckigkeit, guten Tests und sauberem Design – irgendwann etwas wirklich Nützliches.
 
-[**Explore my work**](#featured-work) · [**How I build**](#how-i-build) · [**Inside the lab**](#inside-the-lab) · [**Project notes**](docs/PROJECTS.md)
+`⚡ VIBE CODING: AN` &nbsp; `🧪 REALITY CHECK: PFLICHT` &nbsp; `🚫 BLINDES VERTRAUEN: AUS`
+
+[**Projekte**](#ausgewählte-projekte) · [**Tech-Stack**](#mein-tech-stack) · [**Code-Rhythmus**](#mein-code-rhythmus) · [**Werkbank**](#hinter-den-kulissen) · [**Projektübersicht**](docs/PROJECTS.md)
 
 </div>
 
 ---
 
-## The short version
+## 01 / Wer hinter dem Code steckt
 
-I come from a background of **real-world operations, process improvement and making things work**. Today I channel that mindset into building software — often combining **AI, automation, thoughtful UI/UX and practical engineering**.
+**Nicht das nächste Framework ist mein Ausgangspunkt, sondern ein Problem, das sich besser lösen lässt.**
 
-I like the part where a rough idea becomes a functioning prototype. I care just as much about the next part: understanding the edge cases, documenting decisions and knowing what hasn't been tested yet.
+Ich beschäftige mich mit **KI-gestützten Workflows, benutzbaren Anwendungen, Automatisierung und nachvollziehbaren Prozessen**. Dabei verbindet meine Arbeit das Denken in Abläufen mit Produktdesign und der praktischen technischen Umsetzung.
 
-> **Build with curiosity. Ship with evidence.**
+Ich mag schnelle Experimente. Noch spannender finde ich die Fragen danach: **Was passiert im Fehlerfall? Versteht ein anderer Mensch die Oberfläche? Welche Daten dürfen wohin? Und funktioniert es außerhalb einer Demo wirklich?**
 
-## Featured work
+> **Mit Neugier entwickeln. Mit Belegen veröffentlichen.**
+
+## 02 / Mission Control
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/mission-control-dark.svg" />
+  <img src="assets/mission-control-light.svg" alt="Redaktionelle Statusanzeige: Vibe Coding an, menschliche Prüfung erforderlich, Reality Check immer, Pro und Verkauf pausiert. Keine Live-Metriken." width="100%" />
+</picture>
+
+<sub>Ein augenzwinkerndes, fest gestaltetes Werkbank-Panel – **keine** automatisch gemessene Aktivität, kein Test-PASS und keine Aussage über Live-Verfügbarkeit. Den nativen GitHub-Status kannst du [separat ansehen](docs/PROFILE_SETTINGS.md).</sub>
+
+## 03 / Ausgewählte Projekte
 
 <table>
 <tr>
 <td width="50%" valign="top">
   <div align="center">
     <a href="https://github.com/rootkid-code/showcase-studio-releases">
-      <img src="https://raw.githubusercontent.com/rootkid-code/showcase-studio-releases/main/assets/brand/showcase-mark.svg" width="76" height="76" alt="Showcase Studio original golden workflow S logo" />
+      <img src="https://raw.githubusercontent.com/rootkid-code/showcase-studio-releases/main/assets/brand/showcase-mark.svg" width="83" height="83" alt="Originales goldenes Showcase-Studio-S-Logo" />
     </a>
     <h3>SHOWCASE STUDIO</h3>
-    <strong>Make automations make sense.</strong>
+    <strong>Komplexe Automationen. Klar erzählt.</strong>
   </div>
-  <p>A local-first presentation concept for complex <strong>n8n workflows</strong>: understand the structure, tell the process story, review before sharing.</p>
-  <p><code>Workflow UX</code> <code>n8n</code> <code>Python</code></p>
-  <p><strong>Status:</strong> Public documentation available. <strong>No public application download yet.</strong></p>
-  <p><a href="https://github.com/rootkid-code/showcase-studio-releases"><strong>Explore the release hub →</strong></a></p>
+  <p>Ein lokaler Präsentations- und Dokumentations-Workspace für <strong>n8n-Workflows</strong>. Strukturen sichtbar machen, Zusammenhänge erklären und Inhalte vor dem Teilen prüfen.</p>
+  <p><code>n8n</code> <code>Python</code> <code>FastAPI</code> <code>Workflow UX</code></p>
+  <p><strong>Öffentlicher Stand:</strong> Produktinformationen und Dokumentation. <strong>Noch kein öffentlicher App-Download.</strong></p>
+  <p><a href="https://github.com/rootkid-code/showcase-studio-releases"><strong>Zum Projekt →</strong></a></p>
 </td>
 <td width="50%" valign="top">
   <div align="center">
     <a href="https://github.com/rootkid-code/tresor-releases">
-      <img src="https://raw.githubusercontent.com/rootkid-code/tresor-releases/main/assets/tresor-beta-hero.de.svg" width="100%" alt="Tresor experimental beta project banner, not an app screenshot" />
+      <img src="https://raw.githubusercontent.com/rootkid-code/tresor-releases/main/assets/tresor-beta-hero.de.svg" width="100%" alt="Tresor Beta Lab – originale Konzeptgrafik, kein App-Screenshot" />
     </a>
     <h3>TRESOR / BETA LAB</h3>
-    <strong>Learn by building at the hard edges.</strong>
+    <strong>Desktop-Experimente mit bewusst engen Grenzen.</strong>
   </div>
-  <p>An experimental Windows desktop project exploring local application architecture and release workflows with <strong>Rust, Tauri and TypeScript</strong>.</p>
-  <p><code>Desktop R&D</code> <code>Rust</code> <code>Tauri</code></p>
-  <p><strong>Status:</strong> Experimental test builds. <strong>Not for sensitive or important data.</strong></p>
-  <p><a href="https://github.com/rootkid-code/tresor-releases"><strong>Explore the beta lab →</strong></a></p>
+  <p>Ein experimentelles Windows-Projekt rund um lokale Software, Anwendungspakete und Entwicklungsprozesse mit <strong>Tauri, Rust und TypeScript</strong>.</p>
+  <p><code>Desktop</code> <code>Rust</code> <code>Tauri</code> <code>Release Engineering</code></p>
+  <p><strong>Öffentlicher Stand:</strong> Experimentelle Betas. <strong>Nur für künstliche Testdaten, nicht für sensible oder wichtige Dateien.</strong></p>
+  <p><a href="https://github.com/rootkid-code/tresor-releases"><strong>Zum Beta-Lab →</strong></a></p>
 </td>
 </tr>
 </table>
 
-<sub>Both links lead to genuinely public repositories. Release availability, safety limits and tested features are described in the respective repositories — not inferred from a polished README.</sub>
+Die Projektlinks führen ausschließlich zu **tatsächlich öffentlichen** Repositories. Private Entwicklungsstände werden nicht als öffentliche Downloads ausgegeben.
 
-## How I build
+## 04 / Mein Tech-Stack
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/tech-landscape-dark.svg" />
+  <img src="assets/tech-landscape-light.svg" alt="Vier Tätigkeitsfelder aus echten Projekten: Automation, Product UI, Backend und Daten, kreatives Web/3D." width="100%" />
+</picture>
+
+<div align="center">
+
+**Ein Ausschnitt aus den Technologien, mit denen ich in Projekten arbeite**
+
+<p>
+  <img src="assets/tech/reactjs.svg" width="43" height="43" alt="React" title="React" /> &nbsp;&nbsp;
+  <img src="assets/tech/typescript.svg" width="43" height="43" alt="TypeScript" title="TypeScript" /> &nbsp;&nbsp;
+  <img src="assets/tech/vite.svg" width="43" height="43" alt="Vite" title="Vite" /> &nbsp;&nbsp;
+  <img src="assets/tech/node-js.svg" width="43" height="43" alt="Node.js" title="Node.js" /> &nbsp;&nbsp;
+  <img src="assets/tech/postgresql.svg" width="43" height="43" alt="PostgreSQL" title="PostgreSQL" /> &nbsp;&nbsp;
+  <img src="assets/tech/supabase.svg" width="43" height="43" alt="Supabase" title="Supabase" /> &nbsp;&nbsp;
+  <img src="assets/tech/playwright.svg" width="43" height="43" alt="Playwright" title="Playwright" /> &nbsp;&nbsp;
+  <img src="assets/tech/google-gemini.svg" width="43" height="43" alt="Google Gemini" title="Google Gemini" />
+</p>
+
+<sub>Selbst gehostete, aus dem eigenen Projektbestand übernommene Technologie-SVGs. Marken gehören ihren jeweiligen Inhabern; keine Partnerschaft oder Zertifizierung.</sub>
+
+</div>
+
+| Schwerpunkt | Werkzeuge und Methoden aus dem Projektbestand |
+|:--|:--|
+| **AI & Automation** | n8n, LLM-Integration, Gemini, strukturierte Ausgaben, Validierung, Human-in-the-Loop |
+| **Frontend & UX** | React, TypeScript, JavaScript, HTML/CSS, Vite, Astro, responsive Oberflächen, Designsysteme |
+| **Backend & Daten** | Python, FastAPI, Node.js, PostgreSQL, Supabase, Auth, APIs |
+| **Tests & Delivery** | Git/GitHub, Pull Requests, Playwright, Vitest, dokumentierte QA- und Release-Gates |
+| **Creative Development** | Three.js/WebGL, Blender, interaktive 3D-Prototypen und visuelles Storytelling |
+
+**Keine Skill-Prozentbalken:** Die Liste beschreibt nachweisbar verwendete oder in Projekten erkundete Technologien, **keine** Zertifizierungen und keine erfundene Expertenbewertung. [Stack & Herkunft im Detail](docs/TECH_STACK.md).
+
+## 05 / Mein Code-Rhythmus
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/build-loop-dark.svg" />
-  <img src="assets/build-loop-light.svg" alt="Development process: discover, design, build, verify, iterate." width="100%" />
+  <img src="assets/build-loop-light.svg" alt="Deutscher Entwicklungsablauf: Verstehen, Planen, Bauen, Prüfen und Verbessern." width="100%" />
 </picture>
 
-I enjoy **fast experiments**, but I don't confuse a working demo with a production-ready product.
+| Phase | Meine Leitfrage |
+|:--|:--|
+| **01 · Verstehen** | Für wen löst das wirklich ein Problem – und was ist nur technische Spielerei? |
+| **02 · Planen** | Welche Daten, Entscheidungen, Abhängigkeiten und Fehlerpfade gehören zum Ablauf? |
+| **03 · Bauen** | Wie entsteht daraus schnell ein verständlicher, testbarer Prototyp? |
+| **04 · Prüfen** | Was wurde tatsächlich getestet – und was muss noch nachgewiesen werden? |
+| **05 · Verbessern** | Was macht die nächste Version einfacher, sicherer und nützlicher? |
 
-| What I work with | What I care about |
-| :-- | :-- |
-| **AI & automation** — n8n, LLM integrations, workflow orchestration | Human approval, error handling, measurable usefulness |
-| **Product & interfaces** — React, TypeScript, HTML/CSS | Clarity, accessibility, purposeful design |
-| **Application systems** — Python, APIs, Supabase/PostgreSQL | Understandable boundaries, privacy, maintainability |
-| **Engineering workflow** — Git, reviews, test tooling | Evidence, documentation, reproducible outcomes |
+**Code-Rhythmus** bedeutet für mich: schnell von der Idee zur Umsetzung kommen, aber sauber zwischen **Konzept, Implementierung, Test und Veröffentlichung** unterscheiden. [Mehr über meine Arbeitsprinzipien](docs/BUILD_PRINCIPLES.md).
 
-These are technologies and disciplines I've worked with in projects — **not a claim to be an expert in every tool**.
+## 06 / Hinter den Kulissen
 
-## Inside the lab
-
-There's more in progress than what's public. These are **private development projects or concepts**, not downloadable repos or finished commercial products.
+Einige der interessantesten Vorhaben liegen weiterhin in privaten Repositories. Hier zeige ich bewusst **die Problemräume**, nicht geschützten Quellcode oder unfertige Behauptungen.
 
 <table>
-<tr>
-<td width="50%" valign="top">
-<strong>🚲 Kettenwerk</strong><br/>
-<sub>Workshop operations &amp; human-in-the-loop automation</sub><br/><br/>
-Exploring a connected flow from bicycle inquiry and triage to the workshop board.
-</td>
-<td width="50%" valign="top">
-<strong>🧠 KI-Atlas</strong><br/>
-<sub>Linked knowledge &amp; AI learning</sub><br/><br/>
-An interactive learning environment connecting AI concepts, examples and exercises.
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<strong>🎬 SYNTHESIS</strong><br/>
-<sub>Cinematic web experience &amp; 3D pipelines</sub><br/><br/>
-Experiments in monumental visual storytelling, Blender and browser-based rendering.
-</td>
-<td width="50%" valign="top">
-<strong>🧩 Career Workspace</strong><br/>
-<sub>Evidence-aware application workflows</sub><br/><br/>
-Exploring career information, structured decisions and careful AI-assisted drafting.
-</td>
-</tr>
+<tr><td width="50%" valign="top"><strong>🚲 Kettenwerk</strong><p>Ein Werkstatt-System vom Fahrrad-Finder über KI-gestützte Anfragevorbereitung bis zu Aufträgen, Termin- und Teileprozessen. <code>React</code> <code>Supabase</code> <code>Gemini</code></p></td>
+<td width="50%" valign="top"><strong>🧠 KI-Atlas</strong><p>Ein vernetzter Lernraum für KI-Wissen, Begriffe und interaktive Wissensdarstellungen. <code>Astro</code> <code>JavaScript</code> <code>Wissensgraph</code></p></td></tr>
+<tr><td width="50%" valign="top"><strong>🎬 SYNTHESIS</strong><p>Filmisches 3D-Storytelling mit monumentalen Szenen, Blender-to-WebGL-Pipeline und Performance-Fokus. <code>Blender</code> <code>Three.js</code> <code>WebGL</code></p></td>
+<td width="50%" valign="top"><strong>🧩 Career Workspace</strong><p>Strukturierte Karriere- und Bewerbungsworkflows, bei denen KI unterstützt, aber keine Erfahrungen erfinden soll. <code>TypeScript</code> <code>Supabase</code> <code>Evidence-first</code></p></td></tr>
 </table>
 
-**Why private?** Because a public portfolio should be curated: secrets, rights, assets, data and release claims need checking before code or demos become public. [Read the project notes](docs/PROJECTS.md).
-
-## A tiny reality check
-
 <details>
-<summary><strong>💻 Open the developer console</strong> — a harmless Vibe-Coding Easter egg</summary>
+<summary><strong>🔎 Mehr Projekte und technische Schwerpunkte ansehen</strong></summary>
 
-```text
-rootkid@lab:~$ npm run vibe
+- **ProjectPilot:** Ein lokales Cockpit-Konzept für GitHub-Prozesse, Teamkoordination und überprüfbare QA-Nachweise.
+- **Weitere Web-/Produktprototypen:** Digitale Services, interaktive Webseiten und KI-gestützte Prozesswerkzeuge.
+- **Status:** Private Entwicklung, Konzepte und unterschiedliche Reifegrade; keine pauschale Produktivfreigabe.
 
-  ◈ idea found
-  ◈ prototype started
-  ◈ unnecessary complexity detected
-
-rootkid@lab:~$ npm run ship
-
-  ERROR: confidence != evidence
-  HINT: run tests, review changes, check the docs
-
-rootkid@lab:~$ echo "the vibes are immaculate"
-  the vibes are immaculate
-
-  ...the release gate still wants receipts. 🧪
-```
-
-*This terminal is a joke, not output from a real build or CI job.*
+[Zur ausführlichen Projektkarte](docs/PROJECTS.md) · [Warum private Projekte privat bleiben](docs/BUILD_PRINCIPLES.md)
 
 </details>
 
-## Right now
+## 07 / Das kleine Vibe-Coding-Labor
 
-**Focus:** strengthen the projects that already exist — simpler UX, safer automation, reliable Free/Community testing, clearer documentation.
+<details>
+<summary><strong>🖥️ Terminal öffnen · Spoiler: Der Reality-Check hat das letzte Wort</strong></summary>
 
-**On hold:** paid products, Pro commercialization and pricing ideas. No shop, sales promise or invented launch date here.
+```text
+rootkid@lab:~$ vibe --level=11
 
-<sub>Verified public projects first. More case studies only when their source, assets and proof are ready.</sub>
+  [██████████] IDEEN                  ONLINE
+  [██████████] NEUGIER                ONLINE
+  [██████████] PROTOTYPEN             ENABLED
+
+rootkid@lab:~$ ship --without-testing
+
+  ✗ REQUEST DENIED
+  → Keine Tests? Keine Freigabe.
+  → Keine Fehlerbehandlung? Noch eine Runde.
+  → Kein Datenschutzcheck? Erst recht nicht.
+
+rootkid@lab:~$ ship --with-evidence
+
+  ◇ Review angefragt
+  ◇ Tests noch nachzuweisen
+  ◇ Dokumentation wird geprüft
+
+  "It worked on my machine" ist kein Release-Protokoll. 🧪
+```
+
+*Reine Spaßgrafik in Textform. Keine echte CI-Ausgabe, kein bestandener Test und kein aktueller Betriebsstatus.*
+
+</details>
+
+## 08 / Gerade im Fokus
+
+- **Mehr Produktqualität:** verständlichere Oberflächen, zuverlässigeres Verhalten und sauber dokumentierte Entscheidungen.
+- **Automationen mit Sicherheitsnetz:** Eingaben prüfen, Fehlerfälle behandeln und menschliche Freigaben dort einsetzen, wo sie nötig sind.
+- **Öffentliche Projektgeschichten:** echte, bereinigte Screenshots, klare Architektur und nachweisbare Projektstände statt bloßer Schlagworte.
+- **Community vor Kommerz:** Free-/Community-Tests und nützliche Werkzeuge zuerst; Verkauf, Preise und Pro-Vermarktung bleiben **auf HOLD**.
 
 ---
 
 <div align="center">
 
-**rootkid / code**
+### rootkid / code
 
-*Some people collect frameworks. I collect "what if we built this?" moments.*
+*Viel Freude am Bauen. Gesundes Misstrauen gegenüber dem ersten grünen Häkchen.*
 
-[Public repositories](https://github.com/rootkid-code?tab=repositories) · [Project notes](docs/PROJECTS.md) · [Build principles](docs/BUILD_PRINCIPLES.md)
+[**Öffentliche Repositories**](https://github.com/rootkid-code?tab=repositories) · [**Projektkarte**](docs/PROJECTS.md) · [**Tech-Stack**](docs/TECH_STACK.md) · [**English version**](docs/README.en.md)
 
-<sub>Designed as a GitHub profile, not a marketing claim · No artificial metrics, fake badges or third-party tracking widgets</sub>
+<sub>Originale Projektidentität · Keine privaten Personendaten · Keine erfundenen Statistiken · Keine Tracking-Widgets</sub>
 
 </div>

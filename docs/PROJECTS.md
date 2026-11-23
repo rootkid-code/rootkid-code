@@ -1,52 +1,55 @@
-# The rootkid/code project map
+# Projektkarte · rootkid/code
 
-> **Portfolio context — not release documentation.** This page distinguishes what visitors can actually inspect from private experiments. A polished presentation is not a substitute for QA.
+> **Öffentliche Übersicht, kein Release- oder Testbericht.** Es werden nur tatsächlich öffentliche Repositories verlinkt. Private Arbeiten sind als Projektkontexte dargestellt, nicht als fertige Downloads.
 
-## Publicly accessible
+## Öffentlich einsehbare Repositories
 
-### [Showcase Studio — Release Hub](https://github.com/rootkid-code/showcase-studio-releases)
+### Showcase Studio
 
-**Theme:** Make complicated n8n automation flows understandable for demos, teaching and review.
+**Link:** [Showcase Studio Releases](https://github.com/rootkid-code/showcase-studio-releases)
 
-- **Why:** Workflow logic can be hard to explain outside the editor.
-- **Approach:** Local-first, read-only presentation and explicit sharing/review decisions.
-- **Project areas:** n8n/JSON import, workflow visualization, structured descriptions, privacy-aware exports.
-- **Public status:** Documentation and brand assets only; **no public application installer released**.
-- **What not to assume:** A release-ready Windows build, commercial offering, security certification or production support.
+- **Problem:** Komplexe Automationsworkflows lassen sich im technischen Editor schwer vermitteln.
+- **Ansatz:** Lesende Workflow-Erkundung, visuelle Präsentation und bewusste Freigabe vor externen Exporten.
+- **Technischer Kontext:** n8n, Python, FastAPI, lokale Anwendungen, Export- und Sicherheitsgrenzen.
+- **Stand:** Dokumentation öffentlich; **kein offizieller Anwendungsdownload veröffentlicht**.
 
-### [Tresor / Beta Lab](https://github.com/rootkid-code/tresor-releases)
+### Tresor / Beta Lab
 
-**Theme:** Explore local desktop development and release processes with Tauri, Rust, React and TypeScript.
+**Link:** [Tresor Releases](https://github.com/rootkid-code/tresor-releases)
 
-- **Why:** Building a local application involves more than designing its screens.
-- **Approach:** Experimental desktop builds, test-oriented release documentation and safety caveats.
-- **Public status:** Experimental beta materials and releases only.
-- **Explicit safety boundary:** **Disposable, non-sensitive test data only.** Not for real records, passwords, personal documents or important files. Not an audited security product.
+- **Problemraum:** Lokale Desktop-Anwendungen, Paketierung, Update- und Release-Prozesse.
+- **Technischer Kontext:** Rust, Tauri, React, TypeScript.
+- **Stand:** Experimentelle Beta-Testpakete. **Nur künstliche, entbehrliche Testdaten.** Keine echte sensible Datenspeicherung, kein Sicherheitszertifikat und keine Produktivfreigabe.
 
-## Private explorations
+## Private Entwicklungsarbeiten
 
-These names represent areas explored in private work. The repositories are **not accessible publicly**, and this page does not claim that they are deployed, production-ready or ready for download.
-
-| Project | Question explored | Main disciplines |
+| Projekt | Ausgangsproblem | Arbeitsschwerpunkte |
 |:--|:--|:--|
-| Kettenwerk | How do bicycle inquiries flow into workable service processes? | Product design, workflow automation, role-based operations |
-| KI-Atlas | How can AI concepts be explored as a connected knowledge network? | Educational UX, content models, interactive visualization |
-| SYNTHESIS | How can cinematic 3D storytelling move from Blender into the browser? | Art direction, WebGL, performance, deterministic scenes |
-| Career Workspace | How can AI help prepare applications without inventing experience? | Structured data, evidence review, safe drafting |
+| **Kettenwerk** | Wie gelangen unstrukturierte Kundenanfragen in einen nachvollziehbaren Werkstattprozess? | UI, Rollen, Anfrage-Triage, Human-in-the-Loop, Supabase, KI |
+| **KI-Atlas** | Wie lassen sich KI-Begriffe durch Beziehungen, Lernpfade und Visualisierung verständlicher machen? | Astro, Wissensdaten, interaktive Lernoberflächen |
+| **SYNTHESIS** | Wie wird aus filmischer 3D-Art-Direction ein kontrollierbares Browsererlebnis? | Blender, 3D, WebGL, deterministische Kamera, Performance |
+| **Career Workspace** | Wie kann KI Bewerbungsabläufe vorbereiten, ohne Qualifikationen zu erfinden? | Strukturierte Daten, Belegführung, TypeScript, Auth |
+| **ProjectPilot** | Wie können mehrere Entwicklungs- und QA-Workstreams geordnet zusammenarbeiten? | GitHub-Prozesse, Reviews, Nachweise, lokale Tools |
 
-## Public release checklist
+Alle diese Projekte befinden sich in unterschiedlichen Stadien von Idee, Implementierung und Prüfung. Aus dieser Übersicht folgt **weder öffentlicher Quellcode noch Produktivreife**.
 
-Before publishing another project or case study:
+## Warum nicht einfach alles öffentlich schalten?
 
-1. **Rights:** Confirm ownership and allowed use of code, fonts, images and educational content.
-2. **Privacy:** Remove real users, customer details, family information, tokens, credentials and logs from the material.
-3. **History:** Check **Git history**, not just current files; old commits and metadata can disclose email addresses and secrets.
-4. **Accuracy:** Separate implemented, tested and planned features. Screenshots must come from attributable builds.
-5. **Architecture:** Present useful system boundaries without exposing secrets or administrative tooling.
-6. **Licenses:** Explicitly decide whether code is source-available, open-source licensed or documentation-only.
-7. **Experience:** Offer a comprehensible README and a credible way to understand or try the result.
-8. **Release:** Publish an installer or download link only when the corresponding asset really exists and its QA evidence is recorded.
+- Private Branches und Historien können alte Tokens, persönliche Metadaten oder Zugangsdaten enthalten.
+- Bilder, Schriftarten und Lernmaterialien können fremde Nutzungsrechte besitzen.
+- Ein Source-Tree zeigt Implementierungsabsicht, aber nicht automatisch reale Browser-, Plattform- oder Sicherheitstests.
+- Eine öffentliche Fallstudie kann den Ansatz erklären, **ohne** sensible Infrastruktur oder unfertige APIs herauszugeben.
 
-**Commercial scope:** Free/community usefulness and quality first. Sales, pricing and Pro commercialization are **on hold**.
+## Standard für neue Projektpräsentationen
 
-[← Back to profile](../README.md)
+1. Problem, Zielgruppe und Lösung kurz erklären.
+2. Markenrechte und Herkunft jedes Assets prüfen.
+3. Echte Screenshots mit Build-/Commit-Stand und synthetischen Daten erstellen.
+4. Architektur und Grenzen erklären.
+5. Implementiert, getestet, geplant und veröffentlicht sauber trennen.
+6. Historie, Git-Metadaten, PII, Logs und Konfigurationsdaten prüfen.
+7. Nur tatsächlich vorhandene Demos und Release-Dateien verlinken.
+
+**Produktpriorität:** Zuerst verlässlich nutzbare Free-/Community-Erfahrungen. Kommerzialisierung, Preisgestaltung und Pro-Verkauf sind zurückgestellt.
+
+[← Profil](../README.md) · [Tech-Stack](TECH_STACK.md)
