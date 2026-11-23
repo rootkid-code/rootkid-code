@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1210" height="230" viewBox="0 0 1210 230" role="img" aria-labelledby="t d">
+<title id="t">My development loop</title><desc id="d">Discover, design, build, verify, and iterate. A conceptual engineering process diagram.</desc>
+<defs><linearGradient id="b" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#F8FCFB"/><stop offset="1" stop-color="#EEF6F3"/></linearGradient>
+<linearGradient id="road" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#49D8C4"/><stop offset=".3" stop-color="#87B8FF"/><stop offset=".65" stop-color="#AA99F4"/><stop offset="1" stop-color="#F4BE79"/></linearGradient></defs>
+<rect width="1210" height="230" rx="18" fill="url(#b)" stroke="#D5E2E1" stroke-width="1"/>
+<text x="34" y="34" font-size="12" font-weight="700" letter-spacing="2.4" font-family="Arial,Helvetica,sans-serif" fill="#637F85">THE BUILD LOOP / SMALL STEPS, REAL EVIDENCE</text>
+<path d="M66 125H1145" stroke="url(#road)" stroke-width="3" stroke-linecap="round"/>
+<g>
+<rect x="36" y="71" width="199" height="113" rx="13" fill="#FFFFFF" stroke="#D5E2E1" stroke-width="1.25"/>
+<rect x="50" y="85" width="34" height="28" rx="8" fill="#49D8C4" fill-opacity=".15" stroke="#49D8C4" stroke-opacity=".55"/>
+<text x="67" y="104" text-anchor="middle" fill="#49D8C4" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="800">01</text>
+<text x="94" y="104" fill="#18333D" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="800">DISCOVER</text>
+<text x="50" y="158" fill="#637F85" font-family="Arial,Helvetica,sans-serif" font-size="13">What hurts?</text>
+</g>
+<g>
+<rect x="271" y="71" width="199" height="113" rx="13" fill="#FFFFFF" stroke="#D5E2E1" stroke-width="1.25"/>
+<rect x="285" y="85" width="34" height="28" rx="8" fill="#87B8FF" fill-opacity=".15" stroke="#87B8FF" stroke-opacity=".55"/>
+<text x="302" y="104" text-anchor="middle" fill="#87B8FF" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="800">02</text>
+<text x="329" y="104" fill="#18333D" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="800">DESIGN</text>
+<text x="285" y="158" fill="#637F85" font-family="Arial,Helvetica,sans-serif" font-size="13">What matters?</text>
+</g>
+<g>
+<rect x="506" y="71" width="199" height="113" rx="13" fill="#FFFFFF" stroke="#D5E2E1" stroke-width="1.25"/>
+<rect x="520" y="85" width="34" height="28" rx="8" fill="#AA99F4" fill-opacity=".15" stroke="#AA99F4" stroke-opacity=".55"/>
+<text x="537" y="104" text-anchor="middle" fill="#AA99F4" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="800">03</text>
+<text x="564" y="104" fill="#18333D" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="800">BUILD</text>
+<text x="520" y="158" fill="#637F85" font-family="Arial,Helvetica,sans-serif" font-size="13">Make it real</text>
+</g>
+<g>
+<rect x="741" y="71" width="199" height="113" rx="13" fill="#FFFFFF" stroke="#D5E2E1" stroke-width="1.25"/>
+<rect x="755" y="85" width="34" height="28" rx="8" fill="#F4BE79" fill-opacity=".15" stroke="#F4BE79" stroke-opacity=".55"/>
+<text x="772" y="104" text-anchor="middle" fill="#F4BE79" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="800">04</text>
+<text x="799" y="104" fill="#18333D" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="800">VERIFY</text>
+<text x="755" y="158" fill="#637F85" font-family="Arial,Helvetica,sans-serif" font-size="13">Prove it works</text>
+</g>
+<g>
+<rect x="976" y="71" width="199" height="113" rx="13" fill="#FFFFFF" stroke="#D5E2E1" stroke-width="1.25"/>
+<rect x="990" y="85" width="34" height="28" rx="8" fill="#49D8C4" fill-opacity=".15" stroke="#49D8C4" stroke-opacity=".55"/>
+<text x="1007" y="104" text-anchor="middle" fill="#49D8C4" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="800">05</text>
+<text x="1034" y="104" fill="#18333D" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="800">ITERATE</text>
+<text x="990" y="158" fill="#637F85" font-family="Arial,Helvetica,sans-serif" font-size="13">Make it better</text>
+</g>
+<text x="34" y="210" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#637F85">A PROCESS MAP, NOT AN AUTOMATED TEST RESULT</text>
+<text x="1175" y="210" text-anchor="end" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#637F85">rootkid / code</text>
+</svg>

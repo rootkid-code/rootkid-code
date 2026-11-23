@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1300" height="470" viewBox="0 0 1300 470" role="img" aria-labelledby="ttl desc">
+<title id="ttl">rootkid-code — build, verify, ship</title>
+<desc id="desc">Original concept illustration for the GitHub profile: an abstract engineering console and connected nodes in cyan, violet, and amber. This is not a product screenshot.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#F8FCFA"/><stop offset="1" stop-color="#EAF4F2"/></linearGradient>
+  <radialGradient id="haloC"><stop stop-color="#38E6CF" stop-opacity=".13"/><stop offset="1" stop-color="#38E6CF" stop-opacity="0"/></radialGradient>
+  <radialGradient id="haloV"><stop stop-color="#A791FE" stop-opacity=".12"/><stop offset="1" stop-color="#A791FE" stop-opacity="0"/></radialGradient>
+  <linearGradient id="spectrum" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#36DCC9"/><stop offset=".5" stop-color="#A795F6"/><stop offset="1" stop-color="#F4BF72"/></linearGradient>
+  <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FFFFFF"/><stop offset="1" stop-color="#EEF8F4"/></linearGradient>
+  <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0H0V30" stroke="#75969B" stroke-opacity=".12" fill="none" stroke-width="1"/></pattern>
+  <filter id="soft"><feGaussianBlur stdDeviation="21"/></filter>
+  <clipPath id="clip"><rect x="0" y="0" width="1300" height="470" rx="20"/></clipPath>
+</defs>
+<g clip-path="url(#clip)">
+  <rect width="1300" height="470" fill="url(#bg)"/>
+  <rect width="1300" height="470" fill="url(#grid)"/>
+  <circle cx="1149" cy="62" r="325" fill="url(#haloC)"/>
+  <circle cx="788" cy="435" r="280" fill="url(#haloV)"/>
+  <path d="M0 4H1300" stroke="url(#spectrum)" stroke-width="5" />
+  <path d="M0 455H1300" stroke="#C7DAD8" stroke-opacity=".6"/>
+  <rect x="66" y="61" width="11" height="11" rx="3" fill="#37DCC7"/>
+  <text x="89" y="72" fill="#48646B" font-size="14" font-weight="700" font-family="Arial,Helvetica,sans-serif" letter-spacing="3.3">THE ROOTKID LAB / EST. IN CURIOSITY</text>
+  <text x="62" y="171" fill="#10242E" font-family="Arial,Helvetica,sans-serif" font-size="77" font-weight="800" letter-spacing="-4">rootkid<tspan fill="#35DCC8">/</tspan>code</text>
+  <rect x="66" y="197" rx="16" width="405" height="34" fill="#D3E3E2" stroke="#BAD1D2" stroke-width="1"/>
+  <circle cx="87" cy="214" r="5.3" fill="#40E1C3"/>
+  <text x="102" y="220" font-family="Arial,Helvetica,sans-serif" fill="#10242E" font-weight="700" font-size="13" letter-spacing=".6">VIBE CODING: ON</text>
+  <rect x="255" y="205" width="1" height="17" fill="#BAD1D2"/>
+  <text x="268" y="220" font-family="Arial,Helvetica,sans-serif" fill="#DCA964" font-weight="700" font-size="13" letter-spacing=".6">BLIND TRUST: OFF</text>
+  <text x="66" y="295" font-family="Arial,Helvetica,sans-serif" fill="#10242E" font-size="33" font-weight="760" letter-spacing="-1.1">I build the idea.</text>
+  <text x="66" y="336" font-family="Arial,Helvetica,sans-serif" fill="#10242E" font-size="33" font-weight="760" letter-spacing="-1.1">Then I question <tspan fill="#9F8BEB">everything.</tspan></text>
+  <text x="67" y="381" font-family="Arial,Helvetica,sans-serif" fill="#48646B" font-size="16" font-weight="500">AI systems · Automation · Product engineering</text>
+  <path d="M67 418H555" stroke="#C7DAD8"/>
+  <text x="67" y="441" fill="#6A8588" font-size="11" font-family="Arial,Helvetica,sans-serif" letter-spacing="2.1" font-weight="700">DESIGN → BUILD → TEST → DOCUMENT</text>
+  <!-- Abstract terminal / pipeline vignette, not a real app UI -->
+  <rect x="671" y="62" width="566" height="347" rx="23" fill="#FFFFFF" stroke="#BAD1D2" stroke-width="1.6"/>
+  <rect x="671" y="62" width="566" height="56" rx="23" fill="#EEF8F4"/>
+  <path d="M672 118H1236" stroke="#BAD1D2"/>
+  <circle cx="702" cy="89" r="6" fill="#E98B86"/>
+  <circle cx="721" cy="89" r="6" fill="#F4C171"/>
+  <circle cx="740" cy="89" r="6" fill="#42D4B4"/>
+  <text x="766" y="94" fill="#48646B" font-family="Consolas,Menlo,monospace" font-size="15" font-weight="600">the-build-loop</text>
+  <rect x="1130" y="78" rx="9" width="77" height="23" fill="#E7F2F0" stroke="#BAD1D2"/>
+  <text x="1143" y="94" fill="#32CBB6" font-family="Consolas,Menlo,monospace" font-size="11" font-weight="700">local /dev</text>
+  <text x="704" y="151" fill="#6A8588" font-family="Consolas,Menlo,monospace" font-size="12.5">pipeline.config · draft / illustrative</text>
+  <path d="M743 232H1171" stroke="url(#spectrum)" stroke-width="3.8" stroke-linecap="round"/>
+  <path d="M879 227l8 5-8 5M1020 227l8 5-8 5M1164 227l8 5-8 5" fill="none" stroke="#10242E" stroke-width="2" stroke-opacity=".8"/>
+  <rect x="706" y="185" width="110" height="94" rx="14" fill="#FFFFFF" stroke="#39D7C6" stroke-opacity=".7" stroke-width="1.5"/>
+  <rect x="839" y="185" width="112" height="94" rx="14" fill="#FFFFFF" stroke="#A795F6" stroke-opacity=".7" stroke-width="1.5"/>
+  <rect x="973" y="185" width="112" height="94" rx="14" fill="#FFFFFF" stroke="#F4BF72" stroke-opacity=".7" stroke-width="1.5"/>
+  <rect x="1104" y="185" width="104" height="94" rx="14" fill="#FFFFFF" stroke="#39D7C6" stroke-opacity=".7" stroke-width="1.5"/>
+  <g font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="800" text-anchor="middle">
+    <text x="761" y="222" fill="#2DC9B5">01</text><text x="761" y="251" fill="#10242E">IDEA</text>
+    <text x="895" y="222" fill="#A795F6">02</text><text x="895" y="251" fill="#10242E">BUILD</text>
+    <text x="1029" y="222" fill="#D6A04E">03</text><text x="1029" y="251" fill="#10242E">VERIFY</text>
+    <text x="1156" y="222" fill="#2DC9B5">04</text><text x="1156" y="251" fill="#10242E">SHIP</text>
+  </g>
+  <rect x="703" y="310" width="502" height="72" rx="12" fill="#E7F2F0" stroke="#BAD1D2" stroke-opacity=".8"/>
+  <text x="721" y="335" fill="#48646B" font-family="Consolas,Menlo,monospace" font-size="13"><tspan fill="#39D7C6">$</tspan> npm run reality-check</text>
+  <text x="721" y="360" fill="#10242E" font-family="Consolas,Menlo,monospace" font-size="13"><tspan fill="#41D9B7">✓</tspan> vibes accepted   <tspan fill="#E6B468">●</tspan> evidence required</text>
+  <text x="1186" y="448" text-anchor="end" fill="#6A8588" font-size="10" letter-spacing="1" font-family="Arial,Helvetica,sans-serif">CUSTOM CONCEPT ART · NOT A PRODUCT SCREENSHOT</text>
+</g>
+</svg>
