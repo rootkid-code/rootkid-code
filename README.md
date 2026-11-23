@@ -50,30 +50,33 @@ Das hier ist kein Lebenslauf und keine Liste erfundener „Experten-Level“, so
 <tr>
 <td width="50%" valign="top">
 <div align="center">
-  <a href="https://github.com/rootkid-code/showcase-studio-releases"><img src="https://raw.githubusercontent.com/rootkid-code/showcase-studio-releases/main/assets/brand/showcase-mark.svg" width="76" height="76" alt="Originales goldenes S-Logo von Showcase Studio" /></a>
-  <h3>Showcase Studio</h3>
-  <strong>Komplexe n8n-Workflows. Klar erklärt.</strong>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rootkid-code/showcase-studio-releases/main/assets/brand/showcase-portfolio-dark.svg" />
+    <img src="https://raw.githubusercontent.com/rootkid-code/showcase-studio-releases/main/assets/brand/showcase-portfolio-light.svg" width="100%" alt="Showcase Studio: breites goldenes Workflow-Konzeptbanner, gleiches Format wie Tresor; kein App-Screenshot" />
+  </picture>
+  <h3><a href="https://github.com/rootkid-code/showcase-studio-releases">Showcase Studio</a></h3>
+  <strong>Automationen verstehen. Sicher präsentieren.</strong>
 </div>
-<p>Ein lokaler Präsentations- und Dokumentationsansatz für Automationsabläufe: Graphen verstehen, Prozesse nachvollziehbar darstellen und Daten vor dem Teilen prüfen.</p>
-<p><code>Workflow UX</code> <code>n8n</code> <code>Python</code> <code>FastAPI</code></p>
-<p><strong>Öffentlich verfügbar:</strong> Produktinformationen und Dokumentation. <strong>Noch kein freigegebener App-Download.</strong></p>
-<p><a href="https://github.com/rootkid-code/showcase-studio-releases"><strong>Projekt erkunden →</strong></a></p>
+<p>Lokales Präsentationsstudio für n8n-Workflows: Visualisierung, sieben Stile, Privacy-Review und Offline-Exporte. Die öffentliche Beta ist ein Testrelease, kein Stable-Produkt.</p>
+<p><code>n8n</code> <code>Python</code> <code>FastAPI</code> <code>Workflow UX</code></p>
+<p><strong>Status:</strong> <a href="https://github.com/rootkid-code/showcase-studio-releases/releases/tag/v1.0.0-beta.4"><strong>v1.0.0-beta.4 · öffentliche Testversion</strong></a> · Make-/Zapier-Import geplant, derzeit nur Design-Looks</p>
+<p><a href="https://github.com/rootkid-code/showcase-studio-releases"><strong>Projekt & Dokumentation ansehen →</strong></a></p>
 </td>
 <td width="50%" valign="top">
 <div align="center">
-  <a href="https://github.com/rootkid-code/tresor-releases"><img src="https://raw.githubusercontent.com/rootkid-code/tresor-releases/main/assets/tresor-beta-hero.de.svg" width="100%" alt="Tresor Beta Lab, offizielle redaktionelle Konzeptgrafik; kein Software-Screenshot" /></a>
-  <h3>Tresor / Beta Lab</h3>
+  <img src="https://raw.githubusercontent.com/rootkid-code/tresor-releases/main/assets/tresor-beta-hero.de.svg" width="100%" alt="Tresor Beta Lab: breites Konzeptbanner für Windows-Desktop-Tests; kein Screenshot" />
+  <h3><a href="https://github.com/rootkid-code/tresor-releases">Tresor / Beta Lab</a></h3>
   <strong>Desktop-Entwicklung als Testlabor.</strong>
 </div>
-<p>Experimentelles Windows-Projekt rund um lokale Anwendungen, Paketierung, Updates, technische Sicherheitsgrenzen und nachvollziehbare Release-Prozesse.</p>
+<p>Experimentelles Windows-Projekt zu lokalen Anwendungen, Packaging, Updates, Sicherheitsgrenzen und nachvollziehbaren Releases.</p>
 <p><code>Rust</code> <code>Tauri</code> <code>React</code> <code>TypeScript</code></p>
-<p><strong>Öffentlich verfügbar:</strong> Experimentelle Beta-Testpakete. <strong>Nicht für echte, sensible oder wichtige Dateien verwenden.</strong></p>
+<p><strong>Status: experimentelle Beta-Pakete.</strong> Keine echten, sensiblen oder wichtigen Dateien verwenden.</p>
 <p><a href="https://github.com/rootkid-code/tresor-releases"><strong>Beta-Lab erkunden →</strong></a></p>
 </td>
 </tr>
 </table>
 
-<sub>Die Links führen zu tatsächlich öffentlichen Repositories. Schön gestaltete Dokumentation bedeutet nicht automatisch ein getestetes, produktionsreifes Programm.</sub>
+<sub>Beide Projektgrafiken haben bewusst dasselbe Seitenverhältnis (1440 × 600). Es sind originale Konzept-Visuals, keine Screenshots oder Prüfnachweise.</sub>
 
 ## 04 / KI-Werkbank
 
@@ -211,7 +214,7 @@ Damit das Profil oben **übersichtlich** bleibt, liegen Details in eigenständig
 
 **Besser machen, was schon entsteht.** Verständlichere Oberflächen, robustere Automationen, nachvollziehbare Tests und frei nutzbare Community-Experimente.
 
-**Verkauf, Preise und Pro-Vermarktung sind weiterhin auf HOLD.** Das Profil ist ein Projektportfolio, kein Shop und keine behauptete offizielle Partnerschaft mit den genannten Anbietern.
+**Verkauf, Preise und Pro-Vermarktung sind weiterhin auf HOLD.** Showcase Studio besitzt inzwischen eine öffentliche **Beta 4 zum Testen**; die Produktreife bleibt von Windows-, Security- und Privacy-Abnahmen abhängig. Das Profil ist ein Projektportfolio, kein Shop und keine behauptete offizielle Partnerschaft mit den genannten Anbietern.
 
 ---
 
