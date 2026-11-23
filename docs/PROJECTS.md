@@ -10,8 +10,8 @@
 
 - **Problem:** Komplexe Automationsworkflows lassen sich im technischen Editor schwer vermitteln.
 - **Ansatz:** Lesende Workflow-Erkundung, visuelle Präsentation und bewusste Freigabe vor externen Exporten.
-- **Technischer Kontext:** n8n, Python, FastAPI, lokale Anwendungen, Export- und Sicherheitsgrenzen.
-- **Stand:** Dokumentation öffentlich; **kein offizieller Anwendungsdownload veröffentlicht**.
+- **Technischer Kontext:** n8n, Python, FastAPI, lokale Anwendungen, sieben Design-Looks, Offline-Exporte und Sicherheitsgrenzen. **Make und Zapier sind derzeit nur Stilvarianten; deren Imports sind geplant.**
+- **Stand:** **Öffentliche [`v1.0.0-beta.4`](https://github.com/rootkid-code/showcase-studio-releases/releases/tag/v1.0.0-beta.4) als Pre-release mit Windows-ZIP verfügbar**; noch keine Stable- oder unabhängig bestätigte native Windows-/Security-Abnahme.
 
 ### Tresor / Beta Lab
 
