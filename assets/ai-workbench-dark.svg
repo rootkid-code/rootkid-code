@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 412" width="1280" height="412" role="img" aria-labelledby="title description">
+<title id="title">rootkid/code – KI- und Automationswerkbank</title>
+<desc id="description">Drei kategorisierte Karten mit neutralen Textbezeichnungen von KI-Diensten, Entwicklerwerkzeugen und Automationssystemen. Es sind keine Anbieterlogos, Partnerschaften oder Aussagen über laufende Integrationen.</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#08131C"/><stop offset="1" stop-color="#122530"/></linearGradient>
+<pattern id="grid" width="25" height="25" patternUnits="userSpaceOnUse"><circle cx="1.5" cy="1.5" r=".75" fill="#86B1BC" fill-opacity=".15"/></pattern></defs>
+<rect width="1280" height="412" rx="21" fill="url(#bg)"/>
+<rect width="1280" height="412" rx="21" fill="url(#grid)"/>
+<rect x="29" y="24" width="10" height="10" rx="2" fill="#46DCC7"/>
+<text x="51" y="34" font-size="13" font-family="Arial,Helvetica,sans-serif" font-weight="800" letter-spacing="2.9" fill="#ADC3CC">AI / TOOLING · DER PROJEKTRAUM</text>
+<text x="1251" y="34" text-anchor="end" font-size="12" font-family="Arial,Helvetica,sans-serif" fill="#7996A2">NEUTRALE TEXTLABELS · KEINE MARKENLOGOS</text>
+<rect x="29" y="82" width="389" height="287" rx="19" fill="#132934" stroke="#34515E" stroke-width="1.4"/>
+<rect x="47" y="102" width="6" height="45" rx="3" fill="#46DCC7"/>
+<text x="66" y="120" font-size="16.5" font-weight="800" font-family="Arial,Helvetica,sans-serif" letter-spacing=".6" fill="#F4F9F9">KI-ASSISTENZ</text>
+<text x="66" y="143" font-size="10.5" font-weight="700" font-family="Arial,Helvetica,sans-serif" letter-spacing="1.8" fill="#7996A2">ARBEIT &amp; IDEEN</text>
+<rect x="51" y="146" width="363" height="42" rx="10" fill="#0F202B" stroke="#34515E" stroke-opacity=".42"/>
+<circle cx="69" cy="168" r="4.5" fill="#46DCC7"/>
+<text x="85" y="173" font-size="15" font-family="Arial,Helvetica,sans-serif" font-weight="700" fill="#F4F9F9">ChatGPT</text>
+<text x="398" y="172" font-size="11.5" text-anchor="end" font-family="Arial,Helvetica,sans-serif" fill="#7996A2">Arbeit / Konzeption</text>
+<rect x="51" y="201" width="363" height="42" rx="10" fill="#0F202B" stroke="#34515E" stroke-opacity=".42"/>
+<circle cx="69" cy="223" r="4.5" fill="#46DCC7"/>
+<text x="85" y="228" font-size="15" font-family="Arial,Helvetica,sans-serif" font-weight="700" fill="#F4F9F9">Claude</text>
+<text x="398" y="227" font-size="11.5" text-anchor="end" font-family="Arial,Helvetica,sans-serif" fill="#7996A2">Projekt-Workflows</text>
+<rect x="51" y="256" width="363" height="42" rx="10" fill="#0F202B" stroke="#34515E" stroke-opacity=".42"/>
+<circle cx="69" cy="278" r="4.5" fill="#46DCC7"/>
+<text x="85" y="283" font-size="15" font-family="Arial,Helvetica,sans-serif" font-weight="700" fill="#F4F9F9">DeepSeek</text>
+<text x="398" y="282" font-size="11.5" text-anchor="end" font-family="Arial,Helvetica,sans-serif" fill="#7996A2">Entwicklerpläne</text>
+<rect x="446" y="82" width="389" height="287" rx="19" fill="#132934" stroke="#34515E" stroke-width="1.4"/>
+<rect x="464" y="102" width="6" height="45" rx="3" fill="#AB98F5"/>
+<text x="483" y="120" font-size="16.5" font-weight="800" font-family="Arial,Helvetica,sans-serif" letter-spacing=".6" fill="#F4F9F9">ENTWICKLERWERKZEUGE</text>
+<text x="483" y="143" font-size="10.5" font-weight="700" font-family="Arial,Helvetica,sans-serif" letter-spacing="1.8" fill="#7996A2">UMSETZUNG &amp; REVIEW</text>
+<rect x="468" y="146" width="363" height="42" rx="10" fill="#0F202B" stroke="#34515E" stroke-opacity=".42"/>
+<circle cx="486" cy="168" r="4.5" fill="#AB98F5"/>
+<text x="502" y="173" font-size="15" font-family="Arial,Helvetica,sans-serif" font-weight="700" fill="#F4F9F9">Codex</text>
+<text x="815" y="172" font-size="11.5" text-anchor="end" font-family="Arial,Helvetica,sans-serif" fill="#7996A2">Agenten-Workflows</text>
+<rect x="468" y="201" width="363" height="42" rx="10" fill="#0F202B" stroke="#34515E" stroke-opacity=".42"/>
+<circle cx="486" cy="223" r="4.5" fill="#AB98F5"/>
+<text x="502" y="228" font-size="15" font-family="Arial,Helvetica,sans-serif" font-weight="700" fill="#F4F9F9">GitHub Copilot</text>
+<text x="815" y="227" font-size="11.5" text-anchor="end" font-family="Arial,Helvetica,sans-serif" fill="#7996A2">Projektanweisungen</text>
+<rect x="468" y="256" width="363" height="42" rx="10" fill="#0F202B" stroke="#34515E" stroke-opacity=".42"/>
+<circle cx="486" cy="278" r="4.5" fill="#AB98F5"/>
+<text x="502" y="283" font-size="15" font-family="Arial,Helvetica,sans-serif" font-weight="700" fill="#F4F9F9">Cursor / Lovable</text>
+<text x="815" y="282" font-size="11.5" text-anchor="end" font-family="Arial,Helvetica,sans-serif" fill="#7996A2">Projektkontext</text>
+<rect x="863" y="82" width="389" height="287" rx="19" fill="#132934" stroke="#34515E" stroke-width="1.4"/>
+<rect x="881" y="102" width="6" height="45" rx="3" fill="#F2C079"/>
+<text x="900" y="120" font-size="16.5" font-weight="800" font-family="Arial,Helvetica,sans-serif" letter-spacing=".6" fill="#F4F9F9">AUTOMATION &amp; MODELLE</text>
+<text x="900" y="143" font-size="10.5" font-weight="700" font-family="Arial,Helvetica,sans-serif" letter-spacing="1.8" fill="#7996A2">TECHNISCHE KONZEPTE</text>
+<rect x="885" y="146" width="363" height="42" rx="10" fill="#0F202B" stroke="#34515E" stroke-opacity=".42"/>
+<circle cx="903" cy="168" r="4.5" fill="#F2C079"/>
+<text x="919" y="173" font-size="15" font-family="Arial,Helvetica,sans-serif" font-weight="700" fill="#F4F9F9">Gemini API</text>
+<text x="1232" y="172" font-size="11.5" text-anchor="end" font-family="Arial,Helvetica,sans-serif" fill="#7996A2">Codebezug</text>
+<rect x="885" y="201" width="363" height="42" rx="10" fill="#0F202B" stroke="#34515E" stroke-opacity=".42"/>
+<circle cx="903" cy="223" r="4.5" fill="#F2C079"/>
+<text x="919" y="228" font-size="15" font-family="Arial,Helvetica,sans-serif" font-weight="700" fill="#F4F9F9">n8n</text>
+<text x="1232" y="227" font-size="11.5" text-anchor="end" font-family="Arial,Helvetica,sans-serif" fill="#7996A2">Workflow-Systeme</text>
+<rect x="885" y="256" width="363" height="42" rx="10" fill="#0F202B" stroke="#34515E" stroke-opacity=".42"/>
+<circle cx="903" cy="278" r="4.5" fill="#F2C079"/>
+<text x="919" y="283" font-size="15" font-family="Arial,Helvetica,sans-serif" font-weight="700" fill="#F4F9F9">OpenAI API</text>
+<text x="1232" y="282" font-size="11.5" text-anchor="end" font-family="Arial,Helvetica,sans-serif" fill="#7996A2">Konzept/Abhängigkeiten</text>
+<text x="31" y="396" font-size="11" font-family="Arial,Helvetica,sans-serif" fill="#7996A2">KONZEPTÜBERSICHT · NUTZUNGSTYPEN UNTERSCHEIDEN SICH · KEIN NACHWEIS EINER PRODUKTIVEN API-INTEGRATION</text>
+</svg>

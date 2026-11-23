@@ -2,130 +2,165 @@
 
 [Deutsch](../README.md) · **English**
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="../assets/profile-hero-dark.svg" /><img src="../assets/profile-hero-light.svg" width="100%" alt="rootkid/code – original abstract engineering console, not an application screenshot." /></picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../assets/profile-hero-dark.svg" />
+  <img src="../assets/profile-hero-light.svg" width="100%" alt="rootkid/code — original abstract developer-console illustration, not a product screenshot." />
+</picture>
 
 ### Hey, I'm rootkid-code. 👋
 
-# Build ideas. Understand systems. Make things better.
+# Turning ideas into systems. Keeping the reality check.
 
-**AI · Automation · Product Engineering · UI/UX · Creative Web**
+**AI & Automation · Product Engineering · UI/UX · Creative Development**
 
-From an idea to a prototype — and, with careful tests and sensible design, to something people can actually use.
+I build and explore digital tools — from first workflow and interface prototype to documented, verifiable engineering decisions.
 
-`⚡ VIBE CODING: ON` &nbsp; `🧪 REALITY CHECK: REQUIRED` &nbsp; `🚫 BLIND TRUST: OFF`
+`⚡ VIBE CODING: ON` · `🧪 REALITY CHECK: REQUIRED` · `🛡️ HUMAN REVIEW: ALWAYS`
 
-[Work](#selected-work) · [Stack](#technology-landscape) · [Build loop](#the-build-loop) · [Private lab](#inside-the-private-lab) · [Project notes](PROJECTS.en.md)
+[**Projects**](#03--public-projects) · [**AI workbench**](#04--the-ai-workbench) · [**Stack**](#05--technology-map) · [**Build loop**](#07--the-build-loop)
 
 </div>
 
 ---
 
-## 01 / The approach
+## 01 / Why I build
 
-**I don't start with the next trendy framework. I start with a problem worth solving.**
+**The interesting part isn't the next framework. It's making a real process easier to understand and use.**
 
-I work across AI-assisted automation, product interfaces, understandable processes and hands-on engineering. I enjoy rapid prototypes, but I care just as much about failure cases, data boundaries and how people experience the resulting product.
+I work at the intersection of **AI-assisted automation, product interfaces, data flows, and practical engineering**. Rapid prototypes are fun; understanding permissions, failure cases, usability and test evidence is just as important.
 
-> **Build with curiosity. Ship with evidence.**
+> **Build with curiosity. Engineer the edges. Ship with evidence.**
 
-## 02 / Mission control
+This is a curated workbench, **not** a CV stuffed with unverifiable achievement badges or invented skill percentages.
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="../assets/mission-control-dark.svg" /><img src="../assets/mission-control-light.svg" width="100%" alt="Static editorial status panel: vibe coding on, review required, reality check always and commercial ideas on hold. No live telemetry." /></picture>
+## 02 / Mission Control
 
-<sub>Static, playful editorial art. Not live availability, measured progress or evidence of test completion. GitHub's native status is a separate account setting.</sub>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../assets/mission-control-dark.svg" />
+  <img src="../assets/mission-control-light.svg" width="100%" alt="Static, playful status panel: vibe coding active, human review required, reality checks, commercial plans on hold." />
+</picture>
 
-## 03 / Selected work
+<sub>Static editorial artwork, not live telemetry or verified test output. Native GitHub status and availability are separate account settings.</sub>
 
-| Public project | What it explores | Availability |
+## 03 / Public projects
+
+| Project | What it explores | Actual public status |
 |:--|:--|:--|
-| [**Showcase Studio**](https://github.com/rootkid-code/showcase-studio-releases) | Local-first presentation and review of complex n8n workflows. | Public product information and documentation. **No public application download yet.** |
-| [**Tresor / Beta Lab**](https://github.com/rootkid-code/tresor-releases) | Experimental Windows desktop architecture and release processes with Tauri, Rust and TypeScript. | Experimental betas only. **Disposable synthetic data, never important or sensitive files.** |
+| [**Showcase Studio**](https://github.com/rootkid-code/showcase-studio-releases) | A local-first, read-only presentation and documentation concept for complex n8n workflows. | Brand and documentation only. **No official public application download yet.** |
+| [**Tresor / Beta Lab**](https://github.com/rootkid-code/tresor-releases) | Experimental Windows desktop software, packaging, release and integrity concepts with Rust/Tauri. | Experimental beta tests only. **Never store real, sensitive or important files.** |
 
-The repository links lead to genuinely public pages. Private code and unfinished release candidates are not offered as public downloads.
+These links are genuinely public. Private code is not misrepresented as a published application.
 
-## 04 / Technology landscape
+## 04 / The AI workbench
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="../assets/tech-landscape-dark.svg" /><img src="../assets/tech-landscape-light.svg" width="100%" alt="Project disciplines: automation, product UI, backend and data, and creative 3D web." /></picture>
+Different AI tools play **different roles** in my project work: ideation, development, structured model output, orchestration and review.
 
-<div align="center">
-<p>
-<img src="../assets/tech/reactjs.svg" width="42" height="42" alt="React" title="React" /> &nbsp;
-<img src="../assets/tech/typescript.svg" width="42" height="42" alt="TypeScript" title="TypeScript" /> &nbsp;
-<img src="../assets/tech/vite.svg" width="42" height="42" alt="Vite" title="Vite" /> &nbsp;
-<img src="../assets/tech/node-js.svg" width="42" height="42" alt="Node.js" title="Node.js" /> &nbsp;
-<img src="../assets/tech/postgresql.svg" width="42" height="42" alt="PostgreSQL" title="PostgreSQL" /> &nbsp;
-<img src="../assets/tech/supabase.svg" width="42" height="42" alt="Supabase" title="Supabase" /> &nbsp;
-<img src="../assets/tech/playwright.svg" width="42" height="42" alt="Playwright" title="Playwright" /> &nbsp;
-<img src="../assets/tech/google-gemini.svg" width="42" height="42" alt="Google Gemini" title="Google Gemini" />
-</p>
-<sub>Self-hosted technology icon copies from an existing project. Third-party marks belong to their owners. No endorsement or official partnership is implied.</sub>
-</div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../assets/ai-workbench-dark.svg" />
+  <img src="../assets/ai-workbench-light.svg" width="100%" alt="Original infographic with descriptive plain-text names for ChatGPT, Claude, DeepSeek, Codex, Copilot, Cursor, Lovable, Gemini and n8n; no vendor logos or affiliations." />
+</picture>
 
-| Workstream | Technologies and ideas used or explored |
+| Area | Examples | What the evidence means |
+|:--|:--|:--|
+| **AI assistants** | ChatGPT/OpenAI, Claude/Anthropic, DeepSeek | ChatGPT/Claude appear in private project metadata; DeepSeek in developer task documentation. **Not a claim of production API integration.** |
+| **Coding workflows** | Codex, GitHub Copilot, Cursor, Lovable | Development instructions and project configuration references. |
+| **Model/API code** | Gemini, n8n, structured outputs | Actual Gemini client/configuration code exists in private projects; n8n is a workflow domain in the project set. |
+| **Guardrails** | JSON schemas, validation, human approval, QA | Engineering design principles and selected project implementations, not blanket certification. |
+
+[**Detailed AI toolbox and evidence levels**](AI_TOOLBOX.en.md) · [**Workflow design playbook**](WORKFLOW_PLAYBOOK.md)
+
+## 05 / Technology map
+
+Instead of a wall of third-party company logos, the stack is grouped into **original neutral designs and readable descriptions**.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../assets/stack-atlas-dark.svg" />
+  <img src="../assets/stack-atlas-light.svg" width="100%" alt="Neutral illustrated stack cards covering React/TypeScript/Vite/Astro, Python/FastAPI/PostgreSQL/Supabase, Git/Playwright/Vitest, Blender/WebGL/Rust/Tauri." />
+</picture>
+
+| Domain | Tools explored in actual project contexts |
 |:--|:--|
-| AI & automation | n8n, LLM integration, Gemini, structured output, deterministic validation, human-in-the-loop |
-| UI engineering | React, TypeScript, JavaScript, HTML/CSS, Vite, Astro, accessibility and design systems |
-| Backend and data | Python, FastAPI, Node.js, PostgreSQL, Supabase, APIs and authentication |
-| QA and delivery | GitHub, pull requests, Playwright, Vitest, explicit review and release gates |
-| Creative development | Blender, Three.js, WebGL and interactive 3D prototypes |
+| Product interfaces | React, TypeScript, JavaScript, Vite, Astro, HTML/CSS, Tailwind |
+| Backend & data | Python, FastAPI, Node.js, PostgreSQL, Supabase, API and auth models |
+| Automation & AI | n8n, webhooks, LLMs, structured extraction, review workflows |
+| QA & delivery | Git/GitHub, PR reviews, Playwright, Vitest, release evidence |
+| Creative / desktop | Blender, Three.js, WebGL, Rust, Tauri |
 
-No fake percentages, rankings or unverified certificates. [Technical source notes](TECH_STACK.md).
-
-## 05 / The build loop
-
-<picture><source media="(prefers-color-scheme: dark)" srcset="../assets/build-loop-en-dark.svg" /><img src="../assets/build-loop-en-light.svg" alt="Discover, design, build, verify and iterate — illustrative development loop." width="100%" /></picture>
-
-1. **Discover:** Whose problem are we solving?
-2. **Design:** What data, decisions and failure paths matter?
-3. **Build:** How can we create a usable, testable prototype?
-4. **Verify:** What has actually been checked?
-5. **Iterate:** What becomes simpler, safer and more useful next?
-
-[Engineering principles](BUILD_PRINCIPLES.en.md).
+These are **project technology references**, not certifications or proficiency percentages. [Stack provenance](TECH_STACK.md) · [Brand policy](BRAND_POLICY.md).
 
 ## 06 / Inside the private lab
 
-These are private explorations and prototypes, **not publicly downloadable apps or production deployment claims**.
+The following are **private projects or concepts** at different maturity levels — not public downloads:
 
-| Exploration | Domain |
-|:--|:--|
-| **Kettenwerk** | Bicycle workshop operations, AI-assisted intake, role-based workflow and human review |
-| **KI-Atlas** | Linked AI glossary, educational UX and interactive knowledge maps |
-| **SYNTHESIS** | Cinematic Blender-to-WebGL environments, 3D storytelling and performance |
-| **Career Workspace** | Evidence-aware AI-assisted career/application workflows |
-| **ProjectPilot** | Local coordination and quality-evidence workflow concept |
+| Project | Idea | Focus |
+|:--|:--|:--|
+| **Kettenwerk** | Bicycle service intake, human-reviewed triage and connected workshop workflows | React, Supabase, Gemini |
+| **KI-Atlas** | Connected AI glossary, visual knowledge exploration and learning paths | Astro, JavaScript |
+| **SYNTHESIS** | Cinematic, monumental Blender-to-WebGL storytelling | Blender, Three.js, WebGL |
+| **Career Workspace** | Evidence-aware AI-assisted application preparation | TypeScript, Supabase |
+| **ProjectPilot** | Reviewable GitHub team coordination and QA evidence | GitHub workflows, process design |
 
-[More project context](PROJECTS.en.md).
+[Project stories](PROJECT_STORIES.md) · [Public/private project map](PROJECTS.en.md)
 
-## 07 / A tiny vibe-coding easter egg
+## 07 / The build loop
 
-<details><summary><strong>🖥️ Open the terminal — reality check incoming</strong></summary>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../assets/build-loop-en-dark.svg" />
+  <img src="../assets/build-loop-en-light.svg" width="100%" alt="Discover, design, build, verify and iterate." />
+</picture>
 
-```text
-rootkid@lab:~$ npm run vibe
-  [██████████] curiosity          ON
-  [██████████] ideas              READY
-
-rootkid@lab:~$ npm run ship --skip-tests
-  ERROR: confidence != evidence
-
-rootkid@lab:~$ npm run ship --with-review
-  ○ review requested
-  ○ tests still need proof
-  ○ docs under review
-
-  Great vibes. Now bring receipts. 🧪
+```mermaid
+flowchart LR
+    A["Understand the problem"] --> B["Design the process"]
+    B --> C["Build a prototype"]
+    C --> D{"Evidence ready?"}
+    D -->|No| E["Fix and verify again"]
+    E --> C
+    D -->|Yes| F["Document and release"]
 ```
 
-*Fictional terminal joke; not real build output or a passing test.*
+This is the engineering mindset I aim for, **not a claim that all of my projects have passed every stage**.
+
+[Build principles](BUILD_PRINCIPLES.en.md) · [Automation playbook](WORKFLOW_PLAYBOOK.md)
+
+## 08 / The tiny vibe-coding terminal
+
+<details>
+<summary><strong>⚡ Open the terminal (fictional, obviously)</strong></summary>
+
+```text
+rootkid@lab:~$ vibe --intensity=11
+  [██████████] curiosity     ON
+  [██████████] ideas         READY
+
+rootkid@lab:~$ ship --skip-review
+  ✖ ERROR: confidence != evidence
+  Hint: tests, documentation and privacy review are not optional.
+
+rootkid@lab:~$ ship --with-receipts
+  ◇ review requested
+  ◇ tests still need proof
+  ◇ docs under review
+
+  Immaculate vibes. Unimpressed release gate. 🧪
+```
+
+*Fictional terminal joke. No real CI, no passed test, no product availability claim.*
 
 </details>
 
-## 08 / Right now
+## 09 / Read more
 
-The priority is making existing software **clearer, better documented and better tested** — with reliable Free/Community experiments and useful public case studies.
+| Topic | Detail |
+|:--|:--|
+| [AI Toolbox](AI_TOOLBOX.en.md) | Providers, coding tools, model integrations, evidence levels |
+| [Tech stack](TECH_STACK.md) | Actual project technology context |
+| [Project stories](PROJECT_STORIES.md) | Problems, approaches, limitations and status |
+| [Workflow playbook](WORKFLOW_PLAYBOOK.md) | Validation, human review, errors and privacy |
+| [Brand usage](BRAND_POLICY.md) | Why third-party logos aren't used for decoration |
+| [Brand system](BRAND_GUIDE.md) | Original artwork, theme colors and logo handoff |
 
-**Sales, pricing and Pro commercialization are on HOLD.**
+**Current priority:** clearer UX, safer workflows, reliable Free/Community experiments and transparent project documentation. **Sales, pricing and Pro commercialization are on HOLD.**
 
 ---
 
@@ -133,10 +168,10 @@ The priority is making existing software **clearer, better documented and better
 
 ### rootkid / code
 
-*Vibe-code the sketch. Engineer the edge cases. Verify the release.*
+*Vibe-code the idea. Engineer the edges. Show the evidence.*
 
-[Public repositories](https://github.com/rootkid-code?tab=repositories) · [Project map](PROJECTS.en.md) · [Deutsch](../README.md)
+[Public repositories](https://github.com/rootkid-code?tab=repositories) · [Deutsch](../README.md) · [Legal](../NOTICE.md)
 
-<sub>No private personal information · No invented metrics · No visitor-tracking widgets</sub>
+<sub>Independent portfolio · No vendor partnerships implied · No tracking widgets · No fake statistics</sub>
 
 </div>
