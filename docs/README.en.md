@@ -44,12 +44,37 @@ This is a curated workbench, **not** a CV stuffed with unverifiable achievement 
 
 ## 03 / Public projects
 
-| Project | What it explores | Actual public status |
-|:--|:--|:--|
-| [**Showcase Studio**](https://github.com/rootkid-code/showcase-studio-releases) | A local-first, read-only presentation and documentation concept for complex n8n workflows. | Brand and documentation only. **No official public application download yet.** |
-| [**Tresor / Beta Lab**](https://github.com/rootkid-code/tresor-releases) | Experimental Windows desktop software, packaging, release and integrity concepts with Rust/Tauri. | Experimental beta tests only. **Never store real, sensitive or important files.** |
+<table>
+<tr>
+<td width="50%" valign="top">
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rootkid-code/showcase-studio-releases/main/assets/brand/showcase-portfolio-dark.svg" />
+    <img src="https://raw.githubusercontent.com/rootkid-code/showcase-studio-releases/main/assets/brand/showcase-portfolio-light.svg" width="100%" alt="Showcase Studio wide golden workflow concept banner matching the Tresor project card; not an app screenshot" />
+  </picture>
+  <h3><a href="https://github.com/rootkid-code/showcase-studio-releases">Showcase Studio</a></h3>
+  <strong>Understand workflows. Present with care.</strong>
+</div>
+<p>Local-first n8n workflow presentation studio with seven visual styles, privacy review and offline exports. A public beta exists; it is not a stable product.</p>
+<p><code>n8n</code> <code>Python</code> <code>FastAPI</code> <code>Workflow UX</code></p>
+<p><strong>Status:</strong> <a href="https://github.com/rootkid-code/showcase-studio-releases/releases/tag/v1.0.0-beta.4"><strong>v1.0.0-beta.4 · public preview</strong></a> · Make/Zapier imports planned; visuals available as looks only</p>
+<p><a href="https://github.com/rootkid-code/showcase-studio-releases"><strong>Explore project & docs →</strong></a></p>
+</td>
+<td width="50%" valign="top">
+<div align="center">
+  <img src="https://raw.githubusercontent.com/rootkid-code/tresor-releases/main/assets/tresor-beta-hero.svg" width="100%" alt="Tresor Beta Lab: wide conceptual banner for experimental Windows desktop testing; not an app screenshot" />
+  <h3><a href="https://github.com/rootkid-code/tresor-releases">Tresor / Beta Lab</a></h3>
+  <strong>A hands-on desktop engineering lab.</strong>
+</div>
+<p>Experimental Windows project exploring local applications, packaging, update integrity, security boundaries and release engineering.</p>
+<p><code>Rust</code> <code>Tauri</code> <code>React</code> <code>TypeScript</code></p>
+<p><strong>Status: experimental beta packages.</strong> Never use real, sensitive or irreplaceable files.</p>
+<p><a href="https://github.com/rootkid-code/tresor-releases"><strong>Explore Beta Lab →</strong></a></p>
+</td>
+</tr>
+</table>
 
-These links are genuinely public. Private code is not misrepresented as a published application.
+<sub>Both project graphics deliberately share the same 1440 × 600 aspect ratio. They are original concept artwork, not screenshots or test evidence.</sub>
 
 ## 04 / The AI workbench
 
@@ -160,7 +185,7 @@ rootkid@lab:~$ ship --with-receipts
 | [Brand usage](BRAND_POLICY.md) | Why third-party logos aren't used for decoration |
 | [Brand system](BRAND_GUIDE.md) | Original artwork, theme colors and logo handoff |
 
-**Current priority:** clearer UX, safer workflows, reliable Free/Community experiments and transparent project documentation. **Sales, pricing and Pro commercialization are on HOLD.**
+**Current priority:** clearer UX, safer workflows, reliable Free/Community experiments and transparent project documentation. **Sales, pricing and Pro commercialization are on HOLD.** Showcase Studio has a public **Beta 4** for testing, not a stable production approval.
 
 ---
 
