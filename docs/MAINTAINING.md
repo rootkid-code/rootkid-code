@@ -1,41 +1,49 @@
-# GitHub profile · publishing & maintenance
+# Profil pflegen · rootkid/code
 
-This is the public **profile README repository** for the GitHub account `rootkid-code`. Because its name matches the account, GitHub displays the root `README.md` on the profile at https://github.com/rootkid-code.
+Dieses öffentliche Repository trägt die **GitHub-Profil-README** des Accounts `rootkid-code`. Die Datei `README.md` im Root erscheint auf [der Profilseite](https://github.com/rootkid-code).
 
-## Files
+## Verantwortliche Inhalte
 
-| File | Purpose |
-|:--|:--|
-| `README.md` | Public profile home |
-| `assets/profile-hero-dark.svg` | Dark-mode banner, custom concept illustration |
-| `assets/profile-hero-light.svg` | Light-mode banner |
-| `assets/build-loop-dark.svg` | Dark-mode engineering-process diagram |
-| `assets/build-loop-light.svg` | Light-mode engineering-process diagram |
-| `docs/PROJECTS.md` | Public/private project status and publication checklist |
-| `docs/BUILD_PRINCIPLES.md` | Engineering approach, clearly framed as goals |
-| `docs/PROFILE_SETTINGS.md` | Manual account Bio/Status setup instructions |
+| Bereich | Dateien | Regel |
+|:--|:--|:--|
+| Deutsche Hauptseite | `README.md` | Primäre Profil- und Projektstory, deutschsprachig |
+| Englische Fassung | `docs/README.en.md` | Inhaltlich synchron halten |
+| Header | `assets/profile-hero-*.svg` | Aktuelle Gestaltung bis zur Freigabe eines neuen Logos beibehalten |
+| Mission Control | `assets/mission-control-*.svg` | **Statische** redaktionelle Statusanzeige, keine Live-Aktivität |
+| Tech-Landschaft | `assets/tech-landscape-*.svg` | Illustrative Themenbereiche, keine Kompetenzbewertung |
+| Code-Rhythmus DE | `assets/build-loop-{dark,light}.svg` | Deutsche fünf Schritte |
+| Code-Rhythmus EN | `assets/build-loop-en-{dark,light}.svg` | Englische fünf Schritte |
+| Framework-Grafiken | `assets/tech/*.svg` | Drittmarken nur nominativ, Quelle und Rechte prüfen |
+| Projektübersichten | `docs/PROJECTS.md`, `docs/PROJECTS.en.md` | Öffentlich/private Entwicklungsstände sauber trennen |
+| Arbeitsprinzipien | `docs/BUILD_PRINCIPLES*.md` | Prinzipien als Ziele, nicht als absolute Garantie darstellen |
+| Profil-Einstellungen | `docs/PROFILE_SETTINGS.md` | Nativer Status/Bio/Pins werden direkt auf GitHub gesetzt |
+| Markenführung | `docs/BRAND_GUIDE.md` | Logo-Handoff erst nach Auswahl und Freigabe |
+| Technische Herkunft | `docs/TECH_STACK.md` | Tatsächlich verwendete Technologien, SVG-Provenienz |
 
-## Profile settings — manually managed
+## Regeln für künftige Änderungen
 
-The GitHub connector can edit repository contents but **cannot modify your account Bio, display name, location, pinned repositories or native GitHub status**. See [PROFILE_SETTINGS.md](PROFILE_SETTINGS.md) for the ready-to-copy text and UI steps.
+- **Keine privaten Namen, persönlichen E-Mails oder anderen persönlichen Angaben** in öffentliche Texte, Bilddateien oder Metadaten übernehmen.
+- Statusbilder nicht mit einem echten GitHub-Status verwechseln. Ein `████`-Balken bedeutet hier kein gemessenes Skill-Level und keinen Build-PASS.
+- Keine API-Tokens, fremde Bildrechte, Kurs-/Kundendaten, privaten Repositories oder nicht freigegebenen Screenshots veröffentlichen.
+- Es werden nur **tatsächlich öffentlich zugängliche** Repository-Links als externe Produktlinks genutzt.
+- Showcase Studio: Dokumentation öffentlich, derzeit **kein öffentlicher Anwendungsdownload**.
+- Tresor: experimentelle Testpakete **nur mit künstlichen Testdaten**; nicht für die Aufbewahrung sensibler Dateien.
+- **Verkauf, Preise und Pro-Vermarktung bleiben auf HOLD.**
+- Keine dynamischen GitHub-Trophäen, Tracking-Pixel, Drittanbieter-Badge-Generatoren oder erfundenen Test- und Leistungskennzahlen hinzufügen.
+- GitHub-Markdown und `<picture>` Dark/Light nutzen, keine eingebetteten Skripte oder externen CSS-Dateien.
+- Die Autoren-E-Mail älterer Commits kann trotz pseudonymer Profiltexte in der Git-Historie sichtbar bleiben. Eine Bereinigung der Historie ist ein eigenständiges Vorhaben.
 
-## Maintenance rules
+## Minimale Qualitätssicherung pro PR
 
-- Keep the two featured repositories **actually public** and their release descriptions truthful.
-- Never link to private repos as if they were visitor-accessible.
-- Avoid high-noise automated trophy grids, random dynamic counters, self-generated fake badges or external visitor-tracking widgets.
-- Do not include personal name, personal email, family details, customer data, live tokens or sensitive URLs.
-- Do not treat a clean current README as proof that Git history is anonymized.
-- Keep light/dark SVGs semantically parallel, responsive inside GitHub, accessible with alt text and usable without JavaScript.
-- Review all linked pages and screenshots before updating the public profile.
+1. Root-README und beide Sprachfassungen auf korrekte lokale Links prüfen.
+2. Alle SVGs auf gültiges XML, eingebettete Skripte, unzulässige externe Ressourcen und ausreichende Alternativtexte prüfen.
+3. Pro Theme GitHub-Light/Dark sowie eine schmale Bildschirmansicht **wirklich ansehen**; automatisierter Textcheck ersetzt keine visuelle Prüfung.
+4. Die dargestellten Technologien anhand existierender Quellstände und frei zugänglicher Projektinformationen gegenprüfen.
+5. Kein generierter Erfolgsausweis: Test-PASS nur mit tatsächlich ausgeführter Testumgebung.
+6. Datei- und Scope-Änderungen im PR nachvollziehbar dokumentieren; kein unnötiger Build- oder GitHub-Actions-Verbrauch.
 
-## Pre-merge audit
+## Wenn ein neues Rootkid-Logo fertig ist
 
-1. Check every **relative file link** points to a real path.
-2. Compare displayed feature claims against the latest public README and Releases page.
-3. Search current public text files for personal names, email addresses and confidential details.
-4. Inspect Git author/committer metadata; legacy email exposure requires separate remediation.
-5. Visually inspect both hero variants in GitHub Light/Dark and on a narrow screen.
-6. Use a PR and record a minimal scope, tests and risk notes.
+[Brand Guide](BRAND_GUIDE.md) enthält die Handoff-Regeln. Ein neuer Logostand ersetzt den Header **nicht automatisch**, sondern erhält einen eigenen Brand-Review mit Browservergleich.
 
-**Current strategic decision:** Free/Community projects first; commercialization and paid Pro ideas remain on HOLD.
+[← Profil](../README.md)

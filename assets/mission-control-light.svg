@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1300" height="340" viewBox="0 0 1300 340" role="img" aria-labelledby="t desc">
+<title id="t">rootkid-code — Werkbank-Status</title>
+<desc id="desc">Statische redaktionelle Statusanzeige: Vibe Coding an, Human Review erforderlich, Reality Check immer, Verkauf und Pro pausiert. Keine Live-Daten oder gemessenen Fortschrittswerte.</desc>
+<defs><linearGradient id="canvas" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#F7FBF8"/><stop offset="1" stop-color="#E6F2EF"/></linearGradient>
+<radialGradient id="shine"><stop stop-color="#41DAC7" stop-opacity=".11"/><stop offset="1" stop-color="#41DAC7" stop-opacity="0"/></radialGradient>
+<pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r=".8" fill="#4D6B70" opacity=".12"/></pattern></defs>
+<rect x=".75" y=".75" width="1298.5" height="338.5" rx="22" fill="url(#canvas)" stroke="#C9DEDD" stroke-width="1.5"/>
+<rect width="1300" height="340" rx="22" fill="url(#dots)"/>
+<circle cx="300" cy="200" r="280" fill="url(#shine)"/>
+<rect x="36" y="31" width="9" height="9" rx="2" fill="#3CD7BE"/>
+<text x="59" y="41" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="700" letter-spacing="3.1" fill="#4D6B70">ROOTKID LAB · MISSION CONTROL</text>
+<text x="38" y="112" font-family="Arial,Helvetica,sans-serif" font-size="43" font-weight="800" letter-spacing="-1.5" fill="#18333C">Der aktuelle Modus.</text>
+<text x="40" y="150" font-family="Arial,Helvetica,sans-serif" font-size="18" fill="#4D6B70">Schnell experimentieren.</text>
+<text x="40" y="181" font-family="Arial,Helvetica,sans-serif" font-size="18" fill="#4D6B70">Bewusst kontrollieren.</text>
+<rect x="39" y="224" width="377" height="50" rx="14" fill="#EDF6F3" stroke="#C9DEDD"/>
+<text x="61" y="255" font-family="Consolas,Menlo,monospace" font-size="16" font-weight="700" fill="#29C8B1">$ code --with-curiosity</text>
+<text x="40" y="312" font-size="12" font-family="Arial,Helvetica,sans-serif" fill="#66858C">STATIC EDITORIAL STATUS · KEINE ECHTZEITDATEN</text>
+<rect x="455" y="28" width="808" height="282" rx="19" fill="#FFFFFF" stroke="#C9DEDD" stroke-width="1.5"/>
+<text x="480" y="61" font-family="Arial,Helvetica,sans-serif" font-size="12" letter-spacing="2.6" font-weight="700" fill="#66858C">WORKBENCH SIGNALS</text>
+<text x="1230" y="61" text-anchor="end" font-family="Consolas,Menlo,monospace" font-size="12" fill="#4D6B70">profile.config</text>
+<text x="484" y="102" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="700" fill="#18333C">VIBE CODING</text>
+<rect x="804" y="86" width="44" height="19" rx="5" fill="#39DBC3"  />
+<rect x="863" y="86" width="44" height="19" rx="5" fill="#39DBC3"  />
+<rect x="922" y="86" width="44" height="19" rx="5" fill="#39DBC3"  />
+<rect x="981" y="86" width="44" height="19" rx="5" fill="#39DBC3"  />
+<rect x="1040" y="86" width="44" height="19" rx="5" fill="#39DBC3"  />
+<text x="1231" y="102" text-anchor="end" font-family="Consolas,Menlo,monospace" font-size="14" font-weight="700" fill="#39DBC3">ON</text>
+<text x="484" y="156" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="700" fill="#18333C">HUMAN REVIEW</text>
+<rect x="804" y="140" width="44" height="19" rx="5" fill="#B5A0F2"  />
+<rect x="863" y="140" width="44" height="19" rx="5" fill="#B5A0F2"  />
+<rect x="922" y="140" width="44" height="19" rx="5" fill="#B5A0F2"  />
+<rect x="981" y="140" width="44" height="19" rx="5" fill="#B5A0F2"  />
+<rect x="1040" y="140" width="44" height="19" rx="5" fill="#B5A0F2"  />
+<text x="1231" y="156" text-anchor="end" font-family="Consolas,Menlo,monospace" font-size="14" font-weight="700" fill="#B5A0F2">REQUIRED</text>
+<text x="484" y="210" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="700" fill="#18333C">REALITY CHECK</text>
+<rect x="804" y="194" width="44" height="19" rx="5" fill="#E9B76D"  />
+<rect x="863" y="194" width="44" height="19" rx="5" fill="#E9B76D"  />
+<rect x="922" y="194" width="44" height="19" rx="5" fill="#E9B76D"  />
+<rect x="981" y="194" width="44" height="19" rx="5" fill="#E9B76D"  />
+<rect x="1040" y="194" width="44" height="19" rx="5" fill="#E9B76D"  />
+<text x="1231" y="210" text-anchor="end" font-family="Consolas,Menlo,monospace" font-size="14" font-weight="700" fill="#E9B76D">ALWAYS</text>
+<text x="484" y="264" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="700" fill="#18333C">PRO / SALES</text>
+<rect x="804" y="248" width="44" height="19" rx="5" fill="#D6E7E3" opacity=".9" />
+<rect x="863" y="248" width="44" height="19" rx="5" fill="#D6E7E3" opacity=".9" />
+<rect x="922" y="248" width="44" height="19" rx="5" fill="#D6E7E3" opacity=".9" />
+<rect x="981" y="248" width="44" height="19" rx="5" fill="#D6E7E3" opacity=".9" />
+<rect x="1040" y="248" width="44" height="19" rx="5" fill="#D6E7E3" opacity=".9" />
+<text x="1231" y="264" text-anchor="end" font-family="Consolas,Menlo,monospace" font-size="14" font-weight="700" fill="#66858C">HOLD</text>
+</svg>
