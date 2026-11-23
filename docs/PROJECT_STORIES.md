@@ -10,7 +10,7 @@
 
 **Engineering-Fokus:** Python/FastAPI, lokale Desktop-Distribution, Rechte- und Datenfreigaben, verständliche Visualisierung, Windows-Abnahme.
 
-**Öffentlicher Status:** [Dokumentation und Markenauftritt](https://github.com/rootkid-code/showcase-studio-releases) sind sichtbar. **Keine öffentliche Installation vorhanden**; private Features und Testpläne sind keine öffentliche Freigabe.
+**Öffentlicher Status:** [Showcase Studio Beta 4](https://github.com/rootkid-code/showcase-studio-releases/releases/tag/v1.0.0-beta.4) ist seit **23.11.2026** als **öffentliche Vorabversion mit Windows-ZIP** verfügbar. Dies ist **keine stabile oder unabhängig bestätigte native Windows-/Security-Freigabe**. Sieben Design-Looks sind in den Beta-Release-Notes beschrieben; Make-/Zapier-Importadapter sind dagegen erst geplant.
 
 ## 02 · Tresor — Desktop-Entwicklung mit harten Grenzen
 
