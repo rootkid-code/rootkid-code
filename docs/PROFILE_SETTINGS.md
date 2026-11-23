@@ -42,7 +42,7 @@ Der grafische „Mission-Control“-Balken in der README ist davon unabhängig u
 
 Unter **Your profile → Customize your pins**:
 
-- `showcase-studio-releases` – öffentliche Produktdokumentation, noch kein Installer
+- `showcase-studio-releases` – öffentliche Dokumentation **und [Beta 4 als Windows-ZIP](https://github.com/rootkid-code/showcase-studio-releases/releases/tag/v1.0.0-beta.4)**; noch kein Stable-Release
 - `tresor-releases` – experimentelle Testversionen, keine Echtdaten
 
 Weitere Projekte erst nach gesonderter Freigabe und Bereinigung öffentlich verknüpfen.
