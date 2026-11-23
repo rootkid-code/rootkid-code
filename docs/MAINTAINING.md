@@ -1,49 +1,45 @@
-# Profil pflegen · rootkid/code
+# Profil-Governance · rootkid/code
 
-Dieses öffentliche Repository trägt die **GitHub-Profil-README** des Accounts `rootkid-code`. Die Datei `README.md` im Root erscheint auf [der Profilseite](https://github.com/rootkid-code).
+**Repository:** `rootkid-code/rootkid-code` · öffentliches GitHub-Profil, `README.md` als Einstieg.
 
-## Verantwortliche Inhalte
+## Informationsarchitektur
 
-| Bereich | Dateien | Regel |
+| Ebene | Dateien | Verantwortung |
 |:--|:--|:--|
-| Deutsche Hauptseite | `README.md` | Primäre Profil- und Projektstory, deutschsprachig |
-| Englische Fassung | `docs/README.en.md` | Inhaltlich synchron halten |
-| Header | `assets/profile-hero-*.svg` | Aktuelle Gestaltung bis zur Freigabe eines neuen Logos beibehalten |
-| Mission Control | `assets/mission-control-*.svg` | **Statische** redaktionelle Statusanzeige, keine Live-Aktivität |
-| Tech-Landschaft | `assets/tech-landscape-*.svg` | Illustrative Themenbereiche, keine Kompetenzbewertung |
-| Code-Rhythmus DE | `assets/build-loop-{dark,light}.svg` | Deutsche fünf Schritte |
-| Code-Rhythmus EN | `assets/build-loop-en-{dark,light}.svg` | Englische fünf Schritte |
-| Framework-Grafiken | `assets/tech/*.svg` | Drittmarken nur nominativ, Quelle und Rechte prüfen |
-| Projektübersichten | `docs/PROJECTS.md`, `docs/PROJECTS.en.md` | Öffentlich/private Entwicklungsstände sauber trennen |
-| Arbeitsprinzipien | `docs/BUILD_PRINCIPLES*.md` | Prinzipien als Ziele, nicht als absolute Garantie darstellen |
-| Profil-Einstellungen | `docs/PROFILE_SETTINGS.md` | Nativer Status/Bio/Pins werden direkt auf GitHub gesetzt |
-| Markenführung | `docs/BRAND_GUIDE.md` | Logo-Handoff erst nach Auswahl und Freigabe |
-| Technische Herkunft | `docs/TECH_STACK.md` | Tatsächlich verwendete Technologien, SVG-Provenienz |
+| Deutsche Hauptseite | `README.md` | Klare, kurze Story mit wahrheitsgemäßen Produktständen |
+| Englische Version | `docs/README.en.md` | Gleiche Schwerpunktsetzung, keine widersprüchlichen Statusangaben |
+| Statuspanel | `assets/mission-control-*.svg` | Statisch, keine „Live“-Behauptungen |
+| KI-Ökosystem | `assets/ai-workbench-*.svg`, `docs/AI_TOOLBOX.md` | Textreferenzen und Nachweisstufen, keine Herstellerlogos |
+| Stack | `assets/stack-atlas-*.svg`, `docs/TECH_STACK.md` | Verifizierbare Technologien, ohne Skill-Prozentzahlen |
+| Bauablauf | `assets/build-loop-*.svg`, `docs/BUILD_PRINCIPLES.md` | Arbeitsweise, kein behauptetes Testergebnis |
+| Projektstories | `docs/PROJECT_STORIES.md`, `docs/PROJECTS.md` | Reifegrade, Rechte und Verfügbarkeit transparent darstellen |
+| Architektur-Playbook | `docs/WORKFLOW_PLAYBOOK.md` | Sicherer Konzept-Workflow, kein behaupteter Produktivbetrieb |
+| Markenführung | `docs/BRAND_GUIDE.md`, `docs/BRAND_POLICY.md` | Originaldesign, Drittmarken- und Nutzungsgrenzen |
+| Account-Einstellungen | `docs/PROFILE_SETTINGS.md` | Native Bio/Status/Busy/Pins nur direkt im GitHub-UI |
 
-## Regeln für künftige Änderungen
+## Generelle Qualitätsregeln
 
-- **Keine privaten Namen, persönlichen E-Mails oder anderen persönlichen Angaben** in öffentliche Texte, Bilddateien oder Metadaten übernehmen.
-- Statusbilder nicht mit einem echten GitHub-Status verwechseln. Ein `████`-Balken bedeutet hier kein gemessenes Skill-Level und keinen Build-PASS.
-- Keine API-Tokens, fremde Bildrechte, Kurs-/Kundendaten, privaten Repositories oder nicht freigegebenen Screenshots veröffentlichen.
-- Es werden nur **tatsächlich öffentlich zugängliche** Repository-Links als externe Produktlinks genutzt.
-- Showcase Studio: Dokumentation öffentlich, derzeit **kein öffentlicher Anwendungsdownload**.
-- Tresor: experimentelle Testpakete **nur mit künstlichen Testdaten**; nicht für die Aufbewahrung sensibler Dateien.
-- **Verkauf, Preise und Pro-Vermarktung bleiben auf HOLD.**
-- Keine dynamischen GitHub-Trophäen, Tracking-Pixel, Drittanbieter-Badge-Generatoren oder erfundenen Test- und Leistungskennzahlen hinzufügen.
-- GitHub-Markdown und `<picture>` Dark/Light nutzen, keine eingebetteten Skripte oder externen CSS-Dateien.
-- Die Autoren-E-Mail älterer Commits kann trotz pseudonymer Profiltexte in der Git-Historie sichtbar bleiben. Eine Bereinigung der Historie ist ein eigenständiges Vorhaben.
+- **Klarnamen, persönliche E-Mail-Adressen, Kunden-/Familieninhalte, Secrets und echte Tokens** nicht veröffentlichen.
+- Keine privaten Repos als öffentlich verfügbar ausgeben; keine nicht existierenden Download-Dateien verlinken.
+- Keine Einbindung von Drittanbieter-Statistiken oder „Trophy“-Widgets mit Tracking oder falschen Zahlen.
+- Anbieter als sachliche Textreferenzen nutzen; **keine** kopierten Firmenlogos oder fremden Marken-Assets in neue Panels aufnehmen.
+- Ein Logo aus dem lokalen Kettenwerk-Assetverzeichnis begründet **keine** Lizenz zur öffentlichen Zweitverwendung.
+- **Ausdrücklich:** kommerzieller Pro-/Verkaufsfokus bleibt auf HOLD.
+- Alte Git-Commit-Objekte enthalten historische Autorenmetadaten und gegebenenfalls frühere Assets; das aktuelle `main` bereinigt diese Historie **nicht** rückwirkend.
 
-## Minimale Qualitätssicherung pro PR
+## PR-Checkliste
 
-1. Root-README und beide Sprachfassungen auf korrekte lokale Links prüfen.
-2. Alle SVGs auf gültiges XML, eingebettete Skripte, unzulässige externe Ressourcen und ausreichende Alternativtexte prüfen.
-3. Pro Theme GitHub-Light/Dark sowie eine schmale Bildschirmansicht **wirklich ansehen**; automatisierter Textcheck ersetzt keine visuelle Prüfung.
-4. Die dargestellten Technologien anhand existierender Quellstände und frei zugänglicher Projektinformationen gegenprüfen.
-5. Kein generierter Erfolgsausweis: Test-PASS nur mit tatsächlich ausgeführter Testumgebung.
-6. Datei- und Scope-Änderungen im PR nachvollziehbar dokumentieren; kein unnötiger Build- oder GitHub-Actions-Verbrauch.
+1. Beide Sprachversionen behalten denselben inhaltlichen Status.
+2. Jede relative Markdown-/HTML-Verlinkung zeigt auf eine existierende Datei.
+3. SVGs sind wohlgeformtes XML ohne `script`, `foreignObject`, Remote-Bilder oder nicht benötigte Spezialfunktionen.
+4. Visuelle GitHub-Abnahme Dark/Light/Desktop/Mobil wird **tatsächlich** durchgeführt oder ehrlich als offen markiert.
+5. Tool-Nennungen werden mit einem verifizierbaren Code-/Dokumentations-/Planungsbezug begründet.
+6. Keine externen Markenlogos, fremden Schriftdateien, APIschlüssel oder personenbezogenen Metadaten neu einchecken.
+7. Projekt-Claims (insbesondere Datenschutz, Testergebnis, Release) werden vor Merge überprüft.
+8. Git-Änderung bleibt klein und nachvollziehbar; keine unnötigen Actions/CI-Minuten.
 
-## Wenn ein neues Rootkid-Logo fertig ist
+## Altdateien und Git-Historie
 
-[Brand Guide](BRAND_GUIDE.md) enthält die Handoff-Regeln. Ein neuer Logostand ersetzt den Header **nicht automatisch**, sondern erhält einen eigenen Brand-Review mit Browservergleich.
+Frühere `assets/tech/*.svg` sowie die abgelöste `assets/tech-landscape-*.svg` sind nicht länger Teil der aktuellen öffentlichen Hauptversion. Der Inhalt älterer Commit-Objekte kann weiterhin erreichbar bleiben. **Kein Force-Push oder blindes Löschen der Historie**, solange andere Repositories, Links oder Nachweise darauf beruhen.
 
 [← Profil](../README.md)

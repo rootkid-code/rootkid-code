@@ -4,192 +4,214 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/profile-hero-dark.svg" />
-  <img src="assets/profile-hero-light.svg" width="100%" alt="rootkid/code – individueller Header mit abstrahierter Entwicklerkonsole, kein Screenshot einer Anwendung." />
+  <img src="assets/profile-hero-light.svg" width="100%" alt="rootkid/code – typografischer Header und abstrakte Entwicklerkonsole; keine Aufnahme einer Software." />
 </picture>
 
 ### Hey, ich bin rootkid-code. 👋
 
-# Ideen bauen. Systeme verstehen. Dinge besser machen.
+# Ideen werden Systeme. Vibes werden überprüft.
 
-**KI · Automatisierung · Product Engineering · UI/UX · Creative Web**
+**AI & Automation · Product Engineering · UI/UX · Creative Development**
 
-Aus einem Gedanken wird ein Prototyp. Aus einem Prototyp wird – mit etwas Hartnäckigkeit, guten Tests und sauberem Design – irgendwann etwas wirklich Nützliches.
+Ich baue, erkunde und verbessere digitale Produkte: vom ersten Workflow über verständliche Benutzeroberflächen bis zu überprüfbaren technischen Abläufen.
 
-`⚡ VIBE CODING: AN` &nbsp; `🧪 REALITY CHECK: PFLICHT` &nbsp; `🚫 BLINDES VERTRAUEN: AUS`
+`⚡ VIBE CODING: ON` · `🧪 REALITY CHECK: REQUIRED` · `🛡️ HUMAN REVIEW: ALWAYS`
 
-[**Projekte**](#ausgewählte-projekte) · [**Tech-Stack**](#mein-tech-stack) · [**Code-Rhythmus**](#mein-code-rhythmus) · [**Werkbank**](#hinter-den-kulissen) · [**Projektübersicht**](docs/PROJECTS.md)
+[**Projekte**](#03--öffentliche-projekte) · [**KI-Werkbank**](#04--ki-werkbank) · [**Tech-Stack**](#05--technologie-landkarte) · [**Code-Rhythmus**](#07--code-rhythmus) · [**Mehr erfahren**](#09--mehr-als-eine-readme)
 
 </div>
 
 ---
 
-## 01 / Wer hinter dem Code steckt
+## 01 / Warum ich baue
 
-**Nicht das nächste Framework ist mein Ausgangspunkt, sondern ein Problem, das sich besser lösen lässt.**
+**Software ist dann spannend, wenn sie ein echtes Problem verständlicher oder einfacher macht.**
 
-Ich beschäftige mich mit **KI-gestützten Workflows, benutzbaren Anwendungen, Automatisierung und nachvollziehbaren Prozessen**. Dabei verbindet meine Arbeit das Denken in Abläufen mit Produktdesign und der praktischen technischen Umsetzung.
+Meine Projekte verbinden **KI-gestützte Prozesse, Automatisierung, Datenflüsse, visuelles Design und konkrete Anwendungen**. Ich arbeite gern schnell an ersten Ideen – und genauso gern daran, was danach wirklich zählt: Fehlerfälle, Berechtigungen, verständliche Bedienung und belastbare Ergebnisse.
 
-Ich mag schnelle Experimente. Noch spannender finde ich die Fragen danach: **Was passiert im Fehlerfall? Versteht ein anderer Mensch die Oberfläche? Welche Daten dürfen wohin? Und funktioniert es außerhalb einer Demo wirklich?**
+Das Leitmotiv dahinter:
 
-> **Mit Neugier entwickeln. Mit Belegen veröffentlichen.**
+> **Mit Neugier starten. Mit System bauen. Mit Belegen veröffentlichen.**
+
+Das hier ist kein Lebenslauf und keine Liste erfundener „Experten-Level“, sondern eine **kuratierte Werkbank** mit Einblicken in die Art von Software, die ich entwickle.
 
 ## 02 / Mission Control
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/mission-control-dark.svg" />
-  <img src="assets/mission-control-light.svg" alt="Redaktionelle Statusanzeige: Vibe Coding an, menschliche Prüfung erforderlich, Reality Check immer, Pro und Verkauf pausiert. Keine Live-Metriken." width="100%" />
+  <img src="assets/mission-control-light.svg" width="100%" alt="Humorvolle, statische Werkbank-Anzeige: Vibe Coding aktiv, menschliche Prüfung erforderlich, Reality Check immer, Verkauf und Pro pausiert." />
 </picture>
 
-<sub>Ein augenzwinkerndes, fest gestaltetes Werkbank-Panel – **keine** automatisch gemessene Aktivität, kein Test-PASS und keine Aussage über Live-Verfügbarkeit. Den nativen GitHub-Status kannst du [separat ansehen](docs/PROFILE_SETTINGS.md).</sub>
+<sub>Ein eigens gestaltetes Statuspanel, **keine Live-Telemetrie** und keine gemessenen Skill-Balken. [So lässt sich der echte GitHub-Status einstellen](docs/PROFILE_SETTINGS.md).</sub>
 
-## 03 / Ausgewählte Projekte
+## 03 / Öffentliche Projekte
 
 <table>
 <tr>
 <td width="50%" valign="top">
-  <div align="center">
-    <a href="https://github.com/rootkid-code/showcase-studio-releases">
-      <img src="https://raw.githubusercontent.com/rootkid-code/showcase-studio-releases/main/assets/brand/showcase-mark.svg" width="83" height="83" alt="Originales goldenes Showcase-Studio-S-Logo" />
-    </a>
-    <h3>SHOWCASE STUDIO</h3>
-    <strong>Komplexe Automationen. Klar erzählt.</strong>
-  </div>
-  <p>Ein lokaler Präsentations- und Dokumentations-Workspace für <strong>n8n-Workflows</strong>. Strukturen sichtbar machen, Zusammenhänge erklären und Inhalte vor dem Teilen prüfen.</p>
-  <p><code>n8n</code> <code>Python</code> <code>FastAPI</code> <code>Workflow UX</code></p>
-  <p><strong>Öffentlicher Stand:</strong> Produktinformationen und Dokumentation. <strong>Noch kein öffentlicher App-Download.</strong></p>
-  <p><a href="https://github.com/rootkid-code/showcase-studio-releases"><strong>Zum Projekt →</strong></a></p>
+<div align="center">
+  <a href="https://github.com/rootkid-code/showcase-studio-releases"><img src="https://raw.githubusercontent.com/rootkid-code/showcase-studio-releases/main/assets/brand/showcase-mark.svg" width="76" height="76" alt="Originales goldenes S-Logo von Showcase Studio" /></a>
+  <h3>Showcase Studio</h3>
+  <strong>Komplexe n8n-Workflows. Klar erklärt.</strong>
+</div>
+<p>Ein lokaler Präsentations- und Dokumentationsansatz für Automationsabläufe: Graphen verstehen, Prozesse nachvollziehbar darstellen und Daten vor dem Teilen prüfen.</p>
+<p><code>Workflow UX</code> <code>n8n</code> <code>Python</code> <code>FastAPI</code></p>
+<p><strong>Öffentlich verfügbar:</strong> Produktinformationen und Dokumentation. <strong>Noch kein freigegebener App-Download.</strong></p>
+<p><a href="https://github.com/rootkid-code/showcase-studio-releases"><strong>Projekt erkunden →</strong></a></p>
 </td>
 <td width="50%" valign="top">
-  <div align="center">
-    <a href="https://github.com/rootkid-code/tresor-releases">
-      <img src="https://raw.githubusercontent.com/rootkid-code/tresor-releases/main/assets/tresor-beta-hero.de.svg" width="100%" alt="Tresor Beta Lab – originale Konzeptgrafik, kein App-Screenshot" />
-    </a>
-    <h3>TRESOR / BETA LAB</h3>
-    <strong>Desktop-Experimente mit bewusst engen Grenzen.</strong>
-  </div>
-  <p>Ein experimentelles Windows-Projekt rund um lokale Software, Anwendungspakete und Entwicklungsprozesse mit <strong>Tauri, Rust und TypeScript</strong>.</p>
-  <p><code>Desktop</code> <code>Rust</code> <code>Tauri</code> <code>Release Engineering</code></p>
-  <p><strong>Öffentlicher Stand:</strong> Experimentelle Betas. <strong>Nur für künstliche Testdaten, nicht für sensible oder wichtige Dateien.</strong></p>
-  <p><a href="https://github.com/rootkid-code/tresor-releases"><strong>Zum Beta-Lab →</strong></a></p>
+<div align="center">
+  <a href="https://github.com/rootkid-code/tresor-releases"><img src="https://raw.githubusercontent.com/rootkid-code/tresor-releases/main/assets/tresor-beta-hero.de.svg" width="100%" alt="Tresor Beta Lab, offizielle redaktionelle Konzeptgrafik; kein Software-Screenshot" /></a>
+  <h3>Tresor / Beta Lab</h3>
+  <strong>Desktop-Entwicklung als Testlabor.</strong>
+</div>
+<p>Experimentelles Windows-Projekt rund um lokale Anwendungen, Paketierung, Updates, technische Sicherheitsgrenzen und nachvollziehbare Release-Prozesse.</p>
+<p><code>Rust</code> <code>Tauri</code> <code>React</code> <code>TypeScript</code></p>
+<p><strong>Öffentlich verfügbar:</strong> Experimentelle Beta-Testpakete. <strong>Nicht für echte, sensible oder wichtige Dateien verwenden.</strong></p>
+<p><a href="https://github.com/rootkid-code/tresor-releases"><strong>Beta-Lab erkunden →</strong></a></p>
 </td>
 </tr>
 </table>
 
-Die Projektlinks führen ausschließlich zu **tatsächlich öffentlichen** Repositories. Private Entwicklungsstände werden nicht als öffentliche Downloads ausgegeben.
+<sub>Die Links führen zu tatsächlich öffentlichen Repositories. Schön gestaltete Dokumentation bedeutet nicht automatisch ein getestetes, produktionsreifes Programm.</sub>
 
-## 04 / Mein Tech-Stack
+## 04 / KI-Werkbank
+
+KI ist für mich **Werkzeug, Sparringspartner und technischer Baustein** – je nach Aufgabe. Die entscheidende Frage ist nicht, wie viele Modelle man auflistet, sondern **wo sie sinnvoll helfen und wie ihre Ergebnisse geprüft werden**.
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/tech-landscape-dark.svg" />
-  <img src="assets/tech-landscape-light.svg" alt="Vier Tätigkeitsfelder aus echten Projekten: Automation, Product UI, Backend und Daten, kreatives Web/3D." width="100%" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/ai-workbench-dark.svg" />
+  <img src="assets/ai-workbench-light.svg" width="100%" alt="Selbst gestaltete KI-Werkbank mit textuellen Nennungen von ChatGPT, Claude, DeepSeek, Codex, GitHub Copilot, Cursor, Lovable, Gemini, n8n und OpenAI API. Keine fremden Logos, keine Partnerdarstellung." />
 </picture>
 
-<div align="center">
-
-**Ein Ausschnitt aus den Technologien, mit denen ich in Projekten arbeite**
-
-<p>
-  <img src="assets/tech/reactjs.svg" width="43" height="43" alt="React" title="React" /> &nbsp;&nbsp;
-  <img src="assets/tech/typescript.svg" width="43" height="43" alt="TypeScript" title="TypeScript" /> &nbsp;&nbsp;
-  <img src="assets/tech/vite.svg" width="43" height="43" alt="Vite" title="Vite" /> &nbsp;&nbsp;
-  <img src="assets/tech/node-js.svg" width="43" height="43" alt="Node.js" title="Node.js" /> &nbsp;&nbsp;
-  <img src="assets/tech/postgresql.svg" width="43" height="43" alt="PostgreSQL" title="PostgreSQL" /> &nbsp;&nbsp;
-  <img src="assets/tech/supabase.svg" width="43" height="43" alt="Supabase" title="Supabase" /> &nbsp;&nbsp;
-  <img src="assets/tech/playwright.svg" width="43" height="43" alt="Playwright" title="Playwright" /> &nbsp;&nbsp;
-  <img src="assets/tech/google-gemini.svg" width="43" height="43" alt="Google Gemini" title="Google Gemini" />
-</p>
-
-<sub>Selbst gehostete, aus dem eigenen Projektbestand übernommene Technologie-SVGs. Marken gehören ihren jeweiligen Inhabern; keine Partnerschaft oder Zertifizierung.</sub>
-
-</div>
-
-| Schwerpunkt | Werkzeuge und Methoden aus dem Projektbestand |
+| Bereich | Beispiele aus Projektmaterial und Entwicklungsarbeit |
 |:--|:--|
-| **AI & Automation** | n8n, LLM-Integration, Gemini, strukturierte Ausgaben, Validierung, Human-in-the-Loop |
-| **Frontend & UX** | React, TypeScript, JavaScript, HTML/CSS, Vite, Astro, responsive Oberflächen, Designsysteme |
-| **Backend & Daten** | Python, FastAPI, Node.js, PostgreSQL, Supabase, Auth, APIs |
-| **Tests & Delivery** | Git/GitHub, Pull Requests, Playwright, Vitest, dokumentierte QA- und Release-Gates |
-| **Creative Development** | Three.js/WebGL, Blender, interaktive 3D-Prototypen und visuelles Storytelling |
+| **KI-Assistenten & Modelle** | ChatGPT (OpenAI), Claude (Anthropic), DeepSeek; je nach Kontext für Konzeption, Lösungsvarianten, Entwicklungsaufgaben und Review |
+| **Coding & Prototyping** | Codex, GitHub Copilot, Cursor, Lovable; dokumentierte Entwicklungs- und Agentenworkflows |
+| **Technische Integration** | Gemini API, n8n, strukturierte KI-Ausgaben, Modell-/Prompt-Konfiguration, Validierung und Fehlerbehandlung |
+| **Kontrollmechanismen** | Schema-Prüfung, Rechtebegrenzung, Human-in-the-Loop, negative Tests, Logging ohne unnötige Rohdaten |
 
-**Keine Skill-Prozentbalken:** Die Liste beschreibt nachweisbar verwendete oder in Projekten erkundete Technologien, **keine** Zertifizierungen und keine erfundene Expertenbewertung. [Stack & Herkunft im Detail](docs/TECH_STACK.md).
+**Wichtig:** Die Namen sind beschreibende Referenzen. **ChatGPT/Claude** tauchen unter anderem in Projektmetadaten auf, **DeepSeek** in Entwicklerunterlagen, **Gemini** in konkretem Client-/API-Code. Das ist **keine** Aussage, dass jeder Anbieter in jeder Anwendung produktiv integriert wurde.
 
-## 05 / Mein Code-Rhythmus
+[**KI-Toolbox mit Einsatzkontext und Nachweisstufen**](docs/AI_TOOLBOX.md) · [**Sicherer Workflow-Ansatz**](docs/WORKFLOW_PLAYBOOK.md)
+
+## 05 / Technologie-Landkarte
+
+Keine riesige Herstellerlogo-Wand. Stattdessen eine ruhige, eigens gestaltete **Übersicht nach Aufgaben** – damit Besucher sofort erkennen, woran ich technisch arbeite.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stack-atlas-dark.svg" />
+  <img src="assets/stack-atlas-light.svg" width="100%" alt="Neutrale Technologie-Karten: Interfaces mit React/TypeScript/Vite/Astro, Backend mit Python/FastAPI/Node.js/PostgreSQL/Supabase, QA mit Playwright/Vitest/Git, kreative Systeme mit Three.js/WebGL/Blender/Rust/Tauri." />
+</picture>
+
+| Disziplin | Werkzeuge und Erfahrungen im Projektkontext |
+|:--|:--|
+| **Interfaces & Product UX** | React, TypeScript, JavaScript, HTML/CSS, Vite, Astro, Tailwind CSS, responsive UI, Accessibility |
+| **Backends & Daten** | Python, FastAPI, Node.js, API-Verträge, PostgreSQL, Supabase, Authentifizierung, Datenmodelle |
+| **Automationssysteme** | n8n, Webhooks, LLMs, strukturierte Datenextraktion, Mensch-in-der-Schleife, nachvollziehbare Übergaben |
+| **Qualität & Delivery** | Git/GitHub, Branches, PR-Reviews, Tests, Vitest, Playwright, Browser- und Windows-Prüfkonzepte |
+| **Kreative Technik** | Blender, Three.js, WebGL, 3D-Szenen, Kameraabläufe, Performance-Optimierung |
+| **Desktop-Experimente** | Rust, Tauri, lokale Datenabläufe, Paketierung und Update-Strategien |
+
+Die Zuordnung orientiert sich an **echten Quellständen und Projektunterlagen**. Sie ist keine Zertifizierung und kein Beleg für tiefgehende Expertise in jedem genannten Werkzeug.
+
+[**Ausführlicher Stack mit Projektherkunft**](docs/TECH_STACK.md) · [**Warum ich auf fremde Logos verzichte**](docs/BRAND_POLICY.md)
+
+## 06 / Was in der Werkstatt entsteht
+
+Ein großer Teil der Entwicklungsarbeit ist bewusst noch **privat**. Hier geht es um den *Problemraum und Ansatz* – nicht um die öffentliche Bereitstellung von Quellcode oder Kundendaten.
+
+| Projekt | Die Idee dahinter | Themen |
+|:--|:--|:--|
+| **🚲 Kettenwerk** | Vom Fahrrad-Finder und der KI-gestützten Anfragevorbereitung zu strukturierten Werkstattprozessen | React · Supabase · Gemini · Rollen & Freigaben |
+| **🧠 KI-Atlas** | KI-Wissen durch verknüpfte Begriffe, Lernpfade und interaktive Visualisierungen verständlicher machen | Astro · Wissensgraph · Lern-UX |
+| **🎬 SYNTHESIS** | Filmische, monumentale 3D-Erlebnisse vom Blender-Set in den Browser übersetzen | Blender · Three.js · WebGL |
+| **🧩 Career Workspace** | Bewerbungsabläufe mit überprüfbaren Fakten vorbereiten statt KI-Behauptungen zu erzeugen | TypeScript · Supabase · Evidence-first |
+| **🛠️ ProjectPilot** | Komplexere GitHub- und Entwicklungsworkflows einfacher koordinieren und nachvollziehbar prüfen | GitHub · Orchestrierung · QA |
+| **🧱 Weitere Prototypen** | Web-Services, Prozessoberflächen, Automationsideen und digitale Arbeitsräume | UX · Daten · Integrationen |
+
+<details>
+<summary><strong>Die Projektideen mit Problem, Architektur und Reifegrad genauer ansehen</strong></summary>
+
+Die einzelnen Projekte haben unterschiedliche Entwicklungsstände. Ein privates Repository ist **keine** öffentliche Demo, und ein vorhandenes Modul ist **kein** Nachweis für produktiven Betrieb.
+
+[**Vertiefte Projektgeschichten**](docs/PROJECT_STORIES.md) · [**Projektkarte und Veröffentlichungsregeln**](docs/PROJECTS.md)
+
+</details>
+
+## 07 / Code-Rhythmus
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/build-loop-dark.svg" />
-  <img src="assets/build-loop-light.svg" alt="Deutscher Entwicklungsablauf: Verstehen, Planen, Bauen, Prüfen und Verbessern." width="100%" />
+  <img src="assets/build-loop-light.svg" width="100%" alt="Der Code-Rhythmus: Verstehen, Planen, Bauen, Prüfen, Verbessern." />
 </picture>
 
-| Phase | Meine Leitfrage |
-|:--|:--|
-| **01 · Verstehen** | Für wen löst das wirklich ein Problem – und was ist nur technische Spielerei? |
-| **02 · Planen** | Welche Daten, Entscheidungen, Abhängigkeiten und Fehlerpfade gehören zum Ablauf? |
-| **03 · Bauen** | Wie entsteht daraus schnell ein verständlicher, testbarer Prototyp? |
-| **04 · Prüfen** | Was wurde tatsächlich getestet – und was muss noch nachgewiesen werden? |
-| **05 · Verbessern** | Was macht die nächste Version einfacher, sicherer und nützlicher? |
+**Nicht jede Idee braucht KI. Nicht jeder Prototyp braucht eine Datenbank. Und nicht jeder grüne Build ist bereit für ein Release.**
 
-**Code-Rhythmus** bedeutet für mich: schnell von der Idee zur Umsetzung kommen, aber sauber zwischen **Konzept, Implementierung, Test und Veröffentlichung** unterscheiden. [Mehr über meine Arbeitsprinzipien](docs/BUILD_PRINCIPLES.md).
-
-## 06 / Hinter den Kulissen
-
-Einige der interessantesten Vorhaben liegen weiterhin in privaten Repositories. Hier zeige ich bewusst **die Problemräume**, nicht geschützten Quellcode oder unfertige Behauptungen.
-
-<table>
-<tr><td width="50%" valign="top"><strong>🚲 Kettenwerk</strong><p>Ein Werkstatt-System vom Fahrrad-Finder über KI-gestützte Anfragevorbereitung bis zu Aufträgen, Termin- und Teileprozessen. <code>React</code> <code>Supabase</code> <code>Gemini</code></p></td>
-<td width="50%" valign="top"><strong>🧠 KI-Atlas</strong><p>Ein vernetzter Lernraum für KI-Wissen, Begriffe und interaktive Wissensdarstellungen. <code>Astro</code> <code>JavaScript</code> <code>Wissensgraph</code></p></td></tr>
-<tr><td width="50%" valign="top"><strong>🎬 SYNTHESIS</strong><p>Filmisches 3D-Storytelling mit monumentalen Szenen, Blender-to-WebGL-Pipeline und Performance-Fokus. <code>Blender</code> <code>Three.js</code> <code>WebGL</code></p></td>
-<td width="50%" valign="top"><strong>🧩 Career Workspace</strong><p>Strukturierte Karriere- und Bewerbungsworkflows, bei denen KI unterstützt, aber keine Erfahrungen erfinden soll. <code>TypeScript</code> <code>Supabase</code> <code>Evidence-first</code></p></td></tr>
-</table>
-
-<details>
-<summary><strong>🔎 Mehr Projekte und technische Schwerpunkte ansehen</strong></summary>
-
-- **ProjectPilot:** Ein lokales Cockpit-Konzept für GitHub-Prozesse, Teamkoordination und überprüfbare QA-Nachweise.
-- **Weitere Web-/Produktprototypen:** Digitale Services, interaktive Webseiten und KI-gestützte Prozesswerkzeuge.
-- **Status:** Private Entwicklung, Konzepte und unterschiedliche Reifegrade; keine pauschale Produktivfreigabe.
-
-[Zur ausführlichen Projektkarte](docs/PROJECTS.md) · [Warum private Projekte privat bleiben](docs/BUILD_PRINCIPLES.md)
-
-</details>
-
-## 07 / Das kleine Vibe-Coding-Labor
-
-<details>
-<summary><strong>🖥️ Terminal öffnen · Spoiler: Der Reality-Check hat das letzte Wort</strong></summary>
-
-```text
-rootkid@lab:~$ vibe --level=11
-
-  [██████████] IDEEN                  ONLINE
-  [██████████] NEUGIER                ONLINE
-  [██████████] PROTOTYPEN             ENABLED
-
-rootkid@lab:~$ ship --without-testing
-
-  ✗ REQUEST DENIED
-  → Keine Tests? Keine Freigabe.
-  → Keine Fehlerbehandlung? Noch eine Runde.
-  → Kein Datenschutzcheck? Erst recht nicht.
-
-rootkid@lab:~$ ship --with-evidence
-
-  ◇ Review angefragt
-  ◇ Tests noch nachzuweisen
-  ◇ Dokumentation wird geprüft
-
-  "It worked on my machine" ist kein Release-Protokoll. 🧪
+```mermaid
+flowchart LR
+    A["Problem verstehen"] --> B["Prozess entwerfen"]
+    B --> C["Prototyp bauen"]
+    C --> D{"Nachweise okay?"}
+    D -->|Nein| E["Verbessern und erneut prüfen"]
+    E --> C
+    D -->|Ja| F["Dokumentiert freigeben"]
 ```
 
-*Reine Spaßgrafik in Textform. Keine echte CI-Ausgabe, kein bestandener Test und kein aktueller Betriebsstatus.*
+Das ist mein Arbeitsprinzip – keine Behauptung, dass jedes bestehende Projekt schon alle Qualitätsschritte bestanden hat. [Mehr über die Entwicklungsprinzipien](docs/BUILD_PRINCIPLES.md).
+
+## 08 / Vibe-Coding-Labor
+
+<details>
+<summary><strong>⚡ Terminal öffnen – Disclaimer: Die Vibes kompilieren nicht von allein</strong></summary>
+
+```text
+rootkid@lab:~$ vibe --intensity=11
+
+  [██████████] NEUGIER             ONLINE
+  [██████████] IDEEN               GELADEN
+  [██████████] PROTOTYPEN          AKTIV
+
+rootkid@lab:~$ ship --skip-review
+
+  ✖ FEHLER: confidence != evidence
+  → Kein Review, keine Freigabe.
+  → Kein Datenschutzcheck? Auch nicht.
+  → Der erste Build ist keine Produktgarantie.
+
+rootkid@lab:~$ ship --with-receipts
+
+  ◇ Struktur geprüft
+  ◇ Tests müssen belegt werden
+  ◇ Dokumentation wird mitgenommen
+
+  Stimmung: fantastisch. Release-Gate: unbeeindruckt. 🧪
+```
+
+*Humorvolle, frei erfundene Terminalszene – keine ausgeführte Prüfung und kein tatsächliches Testergebnis.*
 
 </details>
 
-## 08 / Gerade im Fokus
+## 09 / Mehr als eine README
 
-- **Mehr Produktqualität:** verständlichere Oberflächen, zuverlässigeres Verhalten und sauber dokumentierte Entscheidungen.
-- **Automationen mit Sicherheitsnetz:** Eingaben prüfen, Fehlerfälle behandeln und menschliche Freigaben dort einsetzen, wo sie nötig sind.
-- **Öffentliche Projektgeschichten:** echte, bereinigte Screenshots, klare Architektur und nachweisbare Projektstände statt bloßer Schlagworte.
-- **Community vor Kommerz:** Free-/Community-Tests und nützliche Werkzeuge zuerst; Verkauf, Preise und Pro-Vermarktung bleiben **auf HOLD**.
+Damit das Profil oben **übersichtlich** bleibt, liegen Details in eigenständigen, dauerhaft gepflegten Dokumenten.
+
+| Einblick | Darum geht es |
+|:--|:--|
+| [**KI-Toolbox**](docs/AI_TOOLBOX.md) | ChatGPT, Claude, DeepSeek, Codex, Copilot, Gemini und weitere Tools: Einordnung und Nachweisstufen |
+| [**Tech-Stack**](docs/TECH_STACK.md) | Technologien nach Systemebene und konkrete Projektbezüge |
+| [**Projektgeschichten**](docs/PROJECT_STORIES.md) | Problem → Idee → Implementierung → Grenzen |
+| [**Workflow-Playbook**](docs/WORKFLOW_PLAYBOOK.md) | Validierung, menschliche Freigaben, Fehlerbehandlung und Datenschutz |
+| [**Code-Rhythmus**](docs/BUILD_PRINCIPLES.md) | Die Arbeitsprinzipien hinter den Prototypen |
+| [**Brand Policy**](docs/BRAND_POLICY.md) | Warum Herstellerlogos bewusst nicht als Dekoration verwendet werden |
+| [**Profil-Status & Bio**](docs/PROFILE_SETTINGS.md) | GitHub-Status, Sichtbarkeit, E-Mail-Privatsphäre |
+| [**Designsystem**](docs/BRAND_GUIDE.md) | Farben, SVGs, Header und künftige Logo-Integration |
+
+### Aktuell im Fokus
+
+**Besser machen, was schon entsteht.** Verständlichere Oberflächen, robustere Automationen, nachvollziehbare Tests und frei nutzbare Community-Experimente.
+
+**Verkauf, Preise und Pro-Vermarktung sind weiterhin auf HOLD.** Das Profil ist ein Projektportfolio, kein Shop und keine behauptete offizielle Partnerschaft mit den genannten Anbietern.
 
 ---
 
@@ -197,10 +219,10 @@ rootkid@lab:~$ ship --with-evidence
 
 ### rootkid / code
 
-*Viel Freude am Bauen. Gesundes Misstrauen gegenüber dem ersten grünen Häkchen.*
+*Vibe-code the idea. Engineer the edges. Show the evidence.*
 
-[**Öffentliche Repositories**](https://github.com/rootkid-code?tab=repositories) · [**Projektkarte**](docs/PROJECTS.md) · [**Tech-Stack**](docs/TECH_STACK.md) · [**English version**](docs/README.en.md)
+[**Öffentliche Repositories**](https://github.com/rootkid-code?tab=repositories) · [**English**](docs/README.en.md) · [**Technische Projekte**](docs/PROJECTS.md) · [**Rechte**](NOTICE.md)
 
-<sub>Originale Projektidentität · Keine privaten Personendaten · Keine erfundenen Statistiken · Keine Tracking-Widgets</sub>
+<sub>Eigenes Profil-Design · Keine fremden Markenlogos im Stack · Keine erfundenen Skillwerte · Kein Besuchertracking</sub>
 
 </div>

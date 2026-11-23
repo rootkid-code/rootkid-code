@@ -1,45 +1,58 @@
-# Tech-Stack · Reale Projektbezüge und Asset-Herkunft
+# Technologie-Landkarte · Quellstand statt Logo-Liste
 
-Diese Übersicht ist **keine Rangliste persönlicher Fähigkeiten**. Sie ordnet Technologien konkreten Entwicklungsarbeiten zu, die in privaten oder öffentlichen Quellständen nachvollziehbar sind.
+**Stand 23.11.2026.** Diese Seite erklärt, welche Technologien in konkreten Projektständen vorkommen. Sie ist **keine Skill-Rangliste**, kein Nachweis für Berufserfahrung bei Herstellern und kein Testbericht.
 
-## Beispiele aus dem Projektbestand
+## Warum die Darstellung jetzt anders aussieht
 
-| Technologie | Nachvollziehbarer Projektbezug |
-|:--|:--|
-| **React, TypeScript, Vite** | Portfolio, Career Workspace, Kettenwerk-Benutzeroberflächen |
-| **Astro** | KI-Atlas und seine Lernoberflächen |
-| **Node.js, JavaScript** | Web-/Server-Tools, UI- und Automationsmodule |
-| **Python, FastAPI** | Showcase-Studio-Backend und weitere lokale Tools |
-| **PostgreSQL, Supabase** | Daten-/Auth-Funktionen in Kettenwerk, KI-Atlas und Career Workspace |
-| **n8n, Gemini** | Workflow- und KI-Integrationen in den Entwicklungsprojekten |
-| **Playwright, Vitest** | E2E-/Frontend-Testwerkzeuge in ausgewählten Projekten |
-| **Three.js / WebGL / Blender** | SYNTHESIS und seine 3D-Visualisierungspipeline |
-| **Rust, Tauri** | Tresor-Desktop-Experiment |
+Die Profilseite verwendet ab sofort **eigene, neutrale SVG-Karten und klaren Text**. Die acht früher importierten Fremdlogos wurden aus dem aktuellen Git-Baum entfernt. Der Name eines Werkzeugs ist nötig, um eine Technologie nachvollziehbar zu beschreiben; sein offizielles Markenlogo ist dafür nicht nötig.
 
-## Selbst gehostete Technologie-SVGs
+Eigene Grafiken: [AI Workbench Dark](../assets/ai-workbench-dark.svg) · [AI Workbench Light](../assets/ai-workbench-light.svg) · [Stack Atlas Dark](../assets/stack-atlas-dark.svg) · [Stack Atlas Light](../assets/stack-atlas-light.svg).
 
-Die folgenden SVG-Dateien wurden **bytegenau** aus dem vorhandenen privaten Projekt `Kettenwerk`, Pfad `assets/img/logos/`, übernommen und im öffentlichen Profil unter `assets/tech/` gesichert:
+## Die Systemebenen
 
-| Originalname | Aktueller Profilpfad |
-|:--|:--|
-| `reactjs.svg` | [React](../assets/tech/reactjs.svg) |
-| `typescript.svg` | [TypeScript](../assets/tech/typescript.svg) |
-| `vite.svg` | [Vite](../assets/tech/vite.svg) |
-| `node-js.svg` | [Node.js](../assets/tech/node-js.svg) |
-| `postgresql.svg` | [PostgreSQL](../assets/tech/postgresql.svg) |
-| `supabase.svg` | [Supabase](../assets/tech/supabase.svg) |
-| `playwright.svg` | [Playwright](../assets/tech/playwright.svg) |
-| `google-gemini.svg` | [Gemini](../assets/tech/google-gemini.svg) |
+| Ebene | Technologien / Methoden | Nachvollziehbarer Projektkontext |
+|:--|:--|:--|
+| **Interface & Produkt** | React, TypeScript, JavaScript, HTML, CSS, Tailwind CSS, Vite | Portfolio, Kettenwerk, Career Workspace |
+| **Inhalts-/Lernsysteme** | Astro, Content-Modelle, Markdown/JSON, Wissensgraph | KI-Atlas |
+| **Server & APIs** | Python, FastAPI, Node.js, HTTP-Endpunkte, API-Verträge | Showcase Studio, verschiedene Service-Prototypen |
+| **Daten & Berechtigungen** | PostgreSQL, Supabase, Authentifizierung, Rollen, RLS | Kettenwerk, Career Workspace, KI-Atlas |
+| **AI/Automations-Code** | Gemini API, n8n, Modellkonfiguration, strukturierte Ausgaben | Mealio, Showcase Studio, andere Projektkontexte |
+| **AI/Coding-Werkzeuge** | ChatGPT, Claude, DeepSeek, Codex, GitHub Copilot, Cursor, Lovable | Projektmetadaten, Agentenregeln, Planungs-/Entwicklerunterlagen; **unterschiedliche Nachweisstufen** |
+| **Test & Review** | Git, GitHub PRs, Vitest, Playwright, dokumentierte QA-Gates | Portfolio, Career Workspace, Release-/Review-Unterlagen |
+| **3D & Creative Tech** | Blender, Three.js, WebGL, glTF, Kamerafahrten | SYNTHESIS |
+| **Desktop & Packaging** | Rust, Tauri, lokale Windows-Anwendungen und Paketierung | Tresor-Beta-Lab |
 
-**Markenrechtlicher Hinweis:** Diese Zeichen sind Namen und Marken Dritter und werden ausschließlich identifizierend für tatsächlich eingesetzte Technologien gezeigt. Keine Partnerschaft, Billigung, Zertifizierung oder eigene Markeninhaberschaft wird behauptet. Die technische Übernahme aus einem privaten Projekt ist **kein** Nachweis über alle etwaig anwendbaren Bild-/Markennutzungsrechte. Solche Rechte sind vor erweiterter Verwendung gesondert zu prüfen.
+**Konkrete technische Nachweise (intern):** `Ai-pedia/package.json` zeigt Astro; `portfolio/package.json` zeigt React, Vite und Playwright; `pixel-perfect/package.json` dokumentiert Vitest/TypeScript; `show_case/studio/requirements.txt` listet FastAPI; `Mealio/supabase/functions/_shared/gemini-client.ts` enthält Gemini-Client-Code. Diese Quellstände sind **privat** und deshalb absichtlich nicht als für Besucher erreichbare GitHub-Links dargestellt.
 
-Die selbst gestalteten Panels `assets/mission-control-*.svg` und `assets/tech-landscape-*.svg` sind hingegen **redaktionelle Konzeptvisualisierungen**: keine App-Screenshots, keine Skill-Prozente, keine Live-Telemetrie.
+Die Nennung einer Programmiersprache oder Library bedeutet nicht, dass ich in jedem Bereich denselben Erfahrungsgrad habe. **Ein Quellfile ist kein Beleg für Produktivbetrieb.**
 
-## Designprinzipien
+## Was die Kategorien praktisch verbinden kann
 
-- Keine Leistungsbehauptung anhand animierter „Skill Bars“ ohne echte Bewertungsgrundlage.
-- Ruhige Icons und klare Kategorien statt einem unübersichtlichen „Logo-Friedhof“.
-- Keine externen Statistik-Bilddienste oder Besuchertracking.
-- Light-/Dark-Bilder mit sinnvollen Alternativtexten und lokalen Assets.
+```mermaid
+flowchart LR
+  A["Produktproblem & Nutzerfluss"] --> B["UI / Workflow"]
+  B --> C["API / Datenvertrag"]
+  C --> D["Daten / Auth"]
+  C --> E["KI-Assistenz falls sinnvoll"]
+  D --> F["Review + Tests"]
+  E --> F
+  F --> G["Dokumentation + Freigabe"]
+```
 
-[← Profil](../README.md) · [Arbeitsweise](BUILD_PRINCIPLES.md)
+Ein bewusst **generisches Architekturmodell**: Es bildet nicht exakt die gesamte Runtime eines konkreten Projekts ab.
+
+## KI-Anbieter genauer
+
+ChatGPT, Claude, DeepSeek, Gemini, Codex, Cursor, Copilot und Lovable sind **keine austauschbaren technischen Kategorien**. Einige sind Assistenz- und Coding-Werkzeuge, andere Modelle, APIs oder Entwicklungsplattformen.
+
+Die genaue, überprüfte Einordnung steht in der [AI Toolbox](AI_TOOLBOX.md).
+
+## Marken- und Sicherheitsgrenzen
+
+- Fremdmarken werden sachlich **als Text** benannt; die grafischen Kacheln reproduzieren keine Herstellerlogos.
+- Es werden **keine** offiziellen Integrator-, Partner-, Sponsor- oder Zertifizierungsbeziehungen behauptet.
+- Keine Bilder direkt von fremden Asset-CDNs einbetten; keine Besuchertracker.
+- Keine privaten Repositorys, persönlichen Daten oder produktiven Zugangsschlüssel offenlegen.
+- Aktuelle öffentliche Produktdateien und die tatsächlichen Release-Hinweise sind die Quelle für Produktverfügbarkeit.
+
+[← Profil](../README.md) · [Markenpolitik](BRAND_POLICY.md) · [AI Toolbox](AI_TOOLBOX.md)

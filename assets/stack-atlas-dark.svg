@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 268" width="1280" height="268" role="img" aria-labelledby="title desc">
+<title id="title">rootkid/code – Technologie-Landschaft</title>
+<desc id="desc">Vier neutrale Technologie-Gruppen: Interfaces, Services und Daten, Qualität und Delivery sowie kreative Systeme. Ohne externe Markenlogos oder Skill-Rankings.</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#091620"/><stop offset="1" stop-color="#142530"/></linearGradient></defs>
+<rect width="1280" height="268" rx="20" fill="url(#bg)" stroke="#2B4855"/>
+<text x="27" y="33" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="800" letter-spacing="2.8" fill="#9BB4BE">BUILDING BLOCKS / AUS KONKRETEN PROJEKTEN</text>
+<rect x="24" y="53" width="304" height="182" rx="15" fill="#142832" stroke="#2B4855" stroke-width="1.2"/>
+<rect x="39" y="70" width="6" height="28" rx="3" fill="#5CDBC9"/>
+<text x="54" y="89" font-family="Arial,Helvetica,sans-serif" font-size="15.5" font-weight="800" fill="#F1F8F8">INTERFACES</text>
+<rect x="39" y="116" width="133" height="29" rx="7" fill="#142530" stroke="#2B4855" stroke-opacity=".35"/>
+<text x="48" y="135" font-family="Arial,Helvetica,sans-serif" font-size="12.6" font-weight="600" fill="#F1F8F8">React</text>
+<rect x="179" y="116" width="138" height="29" rx="7" fill="#142530" stroke="#2B4855" stroke-opacity=".35"/>
+<text x="188" y="135" font-family="Arial,Helvetica,sans-serif" font-size="12.6" font-weight="600" fill="#F1F8F8">TypeScript</text>
+<rect x="39" y="151" width="133" height="29" rx="7" fill="#142530" stroke="#2B4855" stroke-opacity=".35"/>
+<text x="48" y="170" font-family="Arial,Helvetica,sans-serif" font-size="12.6" font-weight="600" fill="#F1F8F8">Vite</text>
+<rect x="179" y="151" width="138" height="29" rx="7" fill="#142530" stroke="#2B4855" stroke-opacity=".35"/>
+<text x="188" y="170" font-family="Arial,Helvetica,sans-serif" font-size="12.6" font-weight="600" fill="#F1F8F8">Astro</text>
+<rect x="39" y="186" width="133" height="29" rx="7" fill="#142530" stroke="#2B4855" stroke-opacity=".35"/>
+<text x="48" y="205" font-family="Arial,Helvetica,sans-serif" font-size="12.6" font-weight="600" fill="#F1F8F8">HTML &amp; CSS</text>
+<rect x="341" y="53" width="304" height="182" rx="15" fill="#142832" stroke="#2B4855" stroke-width="1.2"/>
+<rect x="356" y="70" width="6" height="28" rx="3" fill="#98BDF8"/>
+<text x="371" y="89" font-family="Arial,Helvetica,sans-serif" font-size="15.5" font-weight="800" fill="#F1F8F8">SERVICES &amp; DATA</text>
+<rect x="356" y="116" width="133" height="29" rx="7" fill="#142530" stroke="#2B4855" stroke-opacity=".35"/>
+<text x="365" y="135" font-family="Arial,Helvetica,sans-serif" font-size="12.6" font-weight="600" fill="#F1F8F8">Python</text>
+<rect x="496" y="116" width="138" height="29" rx="7" fill="#142530" stroke="#2B4855" stroke-opacity=".35"/>
+<text x="505" y="135" font-family="Arial,Helvetica,sans-serif" font-size="12.6" font-weight="600" fill="#F1F8F8">FastAPI</text>
+<rect x="356" y="151" width="133" height="29" rx="7" fill="#142530" stroke="#2B4855" stroke-opacity=".35"/>
+<text x="365" y="170" font-family="Arial,Helvetica,sans-serif" font-size="12.6" font-weight="600" fill="#F1F8F8">Node.js</text>
+<rect x="496" y="151" width="138" height="29" rx="7" fill="#142530" stroke="#2B4855" stroke-opacity=".35"/>
+<text x="505" y="170" font-family="Arial,Helvetica,sans-serif" font-size="12.6" font-weight="600" fill="#F1F8F8">PostgreSQL</text>
+<rect x="356" y="186" width="133" height="29" rx="7" fill="#142530" stroke="#2B4855" stroke-opacity=".35"/>
+<text x="365" y="205" font-family="Arial,Helvetica,sans-serif" font-size="12.6" font-weight="600" fill="#F1F8F8">Supabase</text>
+<rect x="658" y="53" width="304" height="182" rx="15" fill="#142832" stroke="#2B4855" stroke-width="1.2"/>
+<rect x="673" y="70" width="6" height="28" rx="3" fill="#A99AEE"/>
+<text x="688" y="89" font-family="Arial,Helvetica,sans-serif" font-size="15.5" font-weight="800" fill="#F1F8F8">QUALITY &amp; DELIVERY</text>
+<rect x="673" y="116" width="133" height="29" rx="7" fill="#142530" stroke="#2B4855" stroke-opacity=".35"/>
+<text x="682" y="135" font-family="Arial,Helvetica,sans-serif" font-size="12.6" font-weight="600" fill="#F1F8F8">Git / GitHub</text>
+<rect x="813" y="116" width="138" height="29" rx="7" fill="#142530" stroke="#2B4855" stroke-opacity=".35"/>
+<text x="822" y="135" font-family="Arial,Helvetica,sans-serif" font-size="12.6" font-weight="600" fill="#F1F8F8">Playwright</text>
+<rect x="673" y="151" width="133" height="29" rx="7" fill="#142530" stroke="#2B4855" stroke-opacity=".35"/>
+<text x="682" y="170" font-family="Arial,Helvetica,sans-serif" font-size="12.6" font-weight="600" fill="#F1F8F8">Vitest</text>
+<rect x="813" y="151" width="138" height="29" rx="7" fill="#142530" stroke="#2B4855" stroke-opacity=".35"/>
+<text x="822" y="170" font-family="Arial,Helvetica,sans-serif" font-size="12.6" font-weight="600" fill="#F1F8F8">PR Reviews</text>
+<rect x="673" y="186" width="133" height="29" rx="7" fill="#142530" stroke="#2B4855" stroke-opacity=".35"/>
+<text x="682" y="205" font-family="Arial,Helvetica,sans-serif" font-size="12.6" font-weight="600" fill="#F1F8F8">Release Gates</text>
+<rect x="975" y="53" width="304" height="182" rx="15" fill="#142832" stroke="#2B4855" stroke-width="1.2"/>
+<rect x="990" y="70" width="6" height="28" rx="3" fill="#F1BF75"/>
+<text x="1005" y="89" font-family="Arial,Helvetica,sans-serif" font-size="15.5" font-weight="800" fill="#F1F8F8">CREATIVE SYSTEMS</text>
+<rect x="990" y="116" width="133" height="29" rx="7" fill="#142530" stroke="#2B4855" stroke-opacity=".35"/>
+<text x="999" y="135" font-family="Arial,Helvetica,sans-serif" font-size="12.6" font-weight="600" fill="#F1F8F8">Three.js</text>
+<rect x="1130" y="116" width="138" height="29" rx="7" fill="#142530" stroke="#2B4855" stroke-opacity=".35"/>
+<text x="1139" y="135" font-family="Arial,Helvetica,sans-serif" font-size="12.6" font-weight="600" fill="#F1F8F8">WebGL</text>
+<rect x="990" y="151" width="133" height="29" rx="7" fill="#142530" stroke="#2B4855" stroke-opacity=".35"/>
+<text x="999" y="170" font-family="Arial,Helvetica,sans-serif" font-size="12.6" font-weight="600" fill="#F1F8F8">Blender</text>
+<rect x="1130" y="151" width="138" height="29" rx="7" fill="#142530" stroke="#2B4855" stroke-opacity=".35"/>
+<text x="1139" y="170" font-family="Arial,Helvetica,sans-serif" font-size="12.6" font-weight="600" fill="#F1F8F8">Rust</text>
+<rect x="990" y="186" width="133" height="29" rx="7" fill="#142530" stroke="#2B4855" stroke-opacity=".35"/>
+<text x="999" y="205" font-family="Arial,Helvetica,sans-serif" font-size="12.6" font-weight="600" fill="#F1F8F8">Tauri</text>
+<text x="28" y="254" font-size="10.6" font-family="Arial,Helvetica,sans-serif" fill="#6E8B96">NEUTRALE BEZEICHNUNGEN · TECHNOLOGIEN AUS QUELLSTÄNDEN · KEINE ZERTIFIZIERUNG UND KEIN LIVE-STATUS</text>
+</svg>
