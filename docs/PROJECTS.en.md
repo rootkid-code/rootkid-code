@@ -10,8 +10,8 @@
 
 - **Why:** Workflow logic can be hard to explain outside the editor.
 - **Approach:** Local-first, read-only presentation and explicit sharing/review decisions.
-- **Project areas:** n8n/JSON import, workflow visualization, structured descriptions, privacy-aware exports.
-- **Public status:** Documentation and brand assets only; **no public application installer released**.
+- **Project areas:** n8n/JSON import, seven presentation styles, workflow visualization, structured descriptions and privacy-aware offline exports. **Make and Zapier are currently visual looks only; their import adapters are planned.**
+- **Public status:** **[`v1.0.0-beta.4`](https://github.com/rootkid-code/showcase-studio-releases/releases/tag/v1.0.0-beta.4) is publicly available as a pre-release Windows ZIP**; it is not a stable or independently verified Windows/security production release.
 - **What not to assume:** A release-ready Windows build, commercial offering, security certification or production support.
 
 ### [Tresor / Beta Lab](https://github.com/rootkid-code/tresor-releases)
